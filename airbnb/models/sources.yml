@@ -1,0 +1,241 @@
+version: 2
+sources:
+  - name: airbnb
+    schema: raw
+    tables:
+      - name: listings
+        identifier: raw_listings
+        columns:
+         - name: room_type
+           tests:
+            - dbt_expectations.expect_column_distinct_count_to_equal:
+                arguments:
+                  value: 4
+                config:
+                  tags: ['validity']
+                meta:
+                  impact: 'high'
+
+         - name: price
+           tests:
+            - dbt_expectations.expect_column_values_to_match_regex:
+                arguments:
+                  regex: "^\\\\$[0-9][0-9\\\\.]+$"
+                config:
+                  tags: ['validity']
+                meta:
+                  impact: 'high'
+                  description: 'Verifies that price values are formatted as a dollar amount string, starting with $ followed by digits (and optional decimal point)'
+
+      - name: hosts
+        identifier: raw_hosts
+      - name: reviews
+        identifier: raw_reviews
+        config:
+          loaded_at_field: date
+          freshness:
+            warn_after: {count: 1, period: hour}
+            error_after: {count: 24, period: hour}
+
+
+      - name: orders
+        loaded_at_field: loaded_at
+        freshness:
+          warn_after: {count: 10, period: day}
+          error_after: {count: 20, period: day}
+        identifier: orders
+        tests:
+          - dbt_utils.unique_combination_of_columns:
+              arguments:
+                combination_of_columns:
+                  - customer_id
+                  - order_date
+                  - amount
+                  - status
+                  - currency
+              config:
+                tags: ['uniqueness']
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: "(STATUS != 'placed') OR (ORDER_DATE >= dateadd('day', -7, current_date()))"
+              config:
+                tags: ['timeliness']
+        columns:
+        - name: order_id
+          tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+            - unique:
+                config:
+                  tags: ['uniqueness']
+        - name: customer_id
+          tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+            - relationships:
+                arguments:
+                  to: source('airbnb','customers')
+                  field: customer_id
+                config:
+                  tags: ['consistency']
+        - name: order_date
+          tests:
+            - dbt_expectations.expect_column_values_to_be_between:
+                arguments:
+                  max_value: "current_date"
+                config:
+                  tags: ['accuracy']
+        - name: status
+          tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+            - accepted_values:
+                values: ['PLACED', 'SHIPPED', 'CANCELLED', 'DELIVERED', 'REFUNDED']
+                config:
+                  tags: ['validity']
+
+        - name: amount
+          tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+            - dbt_expectations.expect_column_values_to_be_between:
+                arguments:
+                  min_value: 0.01
+                config:
+                  tags: ['accuracy']
+            - iqr_outliers:
+                arguments:
+                  group_by: ['currency']
+                  multiplier: 1.5
+                  min_n: 2
+                config:
+                  tags: ['validity']
+        - name: currency
+          tests:
+            - accepted_values:
+                values: ['SEK','CAD','AUD','GBP','JPY','CHF','NOK','DKK','USD','EUR','NZD']
+                config:
+                  tags: ['validity']
+        - name: loaded_at
+          tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+        - name: created_at
+          tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+      - name: customers
+        loaded_at_field: loaded_at
+        freshness:
+          warn_after: {count: 10, period: day}
+          error_after: {count: 20, period: day}
+        identifier: customers
+        columns:
+          - name: customer_id
+            tests:
+            - unique:
+                config:
+                  tags: ['uniqueness']
+          - name: email
+            tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+                meta:
+                  impact: 'critical'
+            - unique:
+                config:
+                  tags: ['uniqueness']
+                meta:
+                  impact: 'critical'
+            - dbt_utils.not_empty_string:
+                config:
+                  tags: ['completeness']
+                meta:
+                  impact: 'medium'
+            - dbt_expectations.expect_column_values_to_match_regex:
+                arguments:
+                  regex: '^.+@.+[.].+$'
+                config:
+                  tags: ['validity']
+                meta:
+                  impact: 'medium'
+          - name: created_at
+            tests:
+            - dbt_expectations.expect_column_values_to_be_between:
+                arguments:
+                  max_value: "current_timestamp"
+                config:
+                  tags: ['accuracy']
+                meta:
+                  impact: 'critical'
+                  description: 'Verify that customer created_at is not future date.'
+          - name: phone_number
+            tests:
+            - dbt_expectations.expect_column_values_to_match_regex_list:
+                arguments:
+                  regex_list: ["^[+][0-9]{5,15}$"]
+                config:
+                  tags: ['validity']
+                meta:
+                  impact: 'critical'
+            - not_repeated_digit_phone:
+                config:
+                  tags: ['validity']
+                meta:
+                  impact: 'high'
+            - phone_matches_country:
+                country_column: country
+                config:
+                  tags: ['accuracy']
+                meta:
+                  impact: 'high'
+          - name: birthday
+            tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
+                meta:
+                  impact: 'high'
+            - dbt_expectations.expect_column_values_to_be_between:
+                arguments:
+                  column_name: "try_to_date(birthday, 'YYYY-MM-DD')"
+                  min_value: "date('1910-01-01')"
+                  max_value: "dateadd(year, -18, current_date())"
+                config:
+                  tags: ['accuracy']
+                meta:
+                  impact: 'critical'
+                  description: 'Ensures users are at least 18 years old'
+            - dbt_expectations.expect_column_values_to_match_regex:
+                arguments:
+                  regex: '^\d{4}-\d{2}-\d{2}$'
+                config:
+                  tags: ['validity']
+                meta:
+                  impact: 'high'
+                  description: 'DOB should contain only digits with pattern XXXX-XX-XX'
+            - dbt_expectations.expect_column_values_to_not_be_in_set:
+                arguments:
+                  value_set: ['', 'N/A', 'n/a', 'NA', 'null', 'NULL', 'None', 'unknown', 'Unknown', '0000-00-00']
+                config:
+                  tags: ['completeness']
+                  error_if: ">0.05" # Fail if more than 5% of rows fail the test
+                  warn_if: ">0.02" # Warn if more than 2% of rows fail the test
+                meta:
+                  impact: 'critical'
+                  description: 'Date of birth must not contain placeholder values (max 5% tolerance)'
+            - column_less_than_column:
+                arguments:
+                  compare_column: created_at
+                config:
+                  tags: ['consistency']
+                meta:
+                  impact: 'critical'
+                  description: 'Date of birth must be before account creation date'

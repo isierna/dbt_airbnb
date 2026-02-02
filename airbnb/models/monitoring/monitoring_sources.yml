@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: airbnb
+    schema: dev_elementary
+    tables:
+      - name: dbt_tests
+      - name: elementary_test_results
+      - name: dbt_run_results

@@ -1,0 +1,41 @@
+# --- dbt build artifacts ---
+**/target/
+**/dbt_packages/
+**/logs/
+**/dbt_internal_packages
+
+# --- dbt local user config / state ---
+.user.yml
+package-lock.yml
+
+# --- Elementary ---
+**/edr_target/
+
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# --- Secrets & Credentials ---
+profiles.yml
+.env
+.env.*
+*.pem
+*.p8
+*.key
+properties/local.properties
+
+# --- Data / temp files ---
+*.log
+*.tmp
+
+# --- OS / editor ---
+**/.DS_Store
+**/.vscode/
+**/.idea/
+my_dbt_dagster_project/

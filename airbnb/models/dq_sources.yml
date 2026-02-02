@@ -1,0 +1,6 @@
+version: 2
+sources:
+  - name: airbnb
+    schema: dq_monitoring
+    tables:
+      - name: RAW_DBT_RUN_RESULTS

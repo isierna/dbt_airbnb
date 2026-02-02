@@ -1,0 +1,186 @@
+models:
+  - name: dim_listings_cleansed
+    description: Cleansed table which contains Airbnb listings.
+    data_tests:
+      - minimum_row_count:
+          arguments:
+            min_row_count: 1000
+          config:
+            severity: error
+            tags: ['completeness']
+          meta:
+            impact: 'critical'
+            description: 'Row count in the table should be >=1000'
+    columns:
+      - name: listing_id
+        description: Primary key for the listing
+        data_tests:
+          - unique:
+              config:
+                tags: ['uniqueness']
+              meta:
+                impact: 'critical'
+          - not_null:
+              config:
+                tags: ['completeness']
+              meta:
+                impact: 'critical'
+
+      - name: host_id
+        description: The hosts's id. References the host table.
+        data_tests:
+          - not_null:
+              config:
+                tags: ['completeness']
+              meta:
+                impact: 'critical'
+          - relationships:
+              arguments:
+                to: ref('dim_hosts_cleansed')
+                field: host_id
+              config:
+                tags: ['consistency']
+              meta:
+                impact: 'critical'
+
+      - name: room_type
+        description: Type of the apartment / room
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Entire home/apt',
+                        'Private room',
+                        'Shared room',
+                        'Hotel room']
+              config:
+                tags: ['validity']
+              meta:
+                impact: 'medium'
+
+      - name: minimum_nights
+        description: '{{ doc("dim_listing_cleansed__minimum_nights") }}'
+        data_tests:
+          - positive_values:
+              config:
+                tags: ['validity']
+              meta:
+                impact: 'medium'
+                description: 'Minimum nights must be a positive number. (located in generic tests)'
+
+  - name: dim_hosts_cleansed
+    description: Cleansed table for the Airbnb hosts
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: host_id
+        description: The id of the host. This is the primary key.
+        data_type: integer
+        data_tests:
+          - not_null:
+              config:
+                tags: ['completeness']
+              meta:
+                impact: 'critical'
+          - unique:
+              config:
+                tags: ['uniqueness']
+              meta:
+                impact: 'critical'
+      
+      - name: host_name
+        description: The name of the host
+        data_type: string
+        data_tests:
+          - not_null:
+              config:
+                tags: ['completeness']
+              meta:
+                impact: 'high'
+      
+      - name: is_superhost
+        description: Defines whether the hosts is a superhost.
+        data_type: string
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['t', 'f']
+              config:
+                tags: ['validity']
+              meta:
+                impact: 'medium'
+
+      - name: updated_at
+        data_type: timestamp
+
+      - name: created_at
+        data_type: timestamp
+
+  - name: dim_listings_w_hosts
+    data_tests:
+      - dbt_expectations.expect_table_row_count_to_equal_other_table:
+          arguments:
+            compare_model: source('airbnb', 'listings')
+          config:
+            tags: ['completeness']
+          meta:
+            impact: 'critical'
+            description: 'dim_listings_w_hosts and raw_listings should have equal number of rows.'
+    columns:
+      - name: price
+        data_tests:
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              arguments:
+                column_type: number
+              config:
+                tags: ['validity']
+              meta:
+                impact: 'high'
+                description: 'Price column should be of type Number.'
+          - dbt_expectations.expect_column_quantile_values_to_be_between:
+              arguments:
+                quantile: .99
+                min_value: 50
+                max_value: 500
+              config:
+                tags: ['validity']
+          - dbt_expectations.expect_column_max_to_be_between:
+              arguments:
+                max_value: 5000
+              config:
+                severity: warn
+                tags: ['validity']
+              meta:
+                impact: 'medium'
+
+
+  - name: fct_reviews
+    columns:
+      - name: listing_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_listings_cleansed')
+                field: listing_id
+              config:
+                tags: ['consistency']
+              meta:
+                impact: 'high'
+
+      - name: reviewer_name
+        data_tests:
+          - not_null:
+              config:
+                tags: ['completeness']
+              meta:
+                impact: 'critical'
+      
+      - name: review_sentiment
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['positive', 'neutral', 'negative']
+              config:
+                tags: ['validity']
+              meta:
+                impact: 'medium'
