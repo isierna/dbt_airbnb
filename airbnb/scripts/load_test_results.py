@@ -12,6 +12,7 @@ def load_test_results():
 
     if not os.path.exists(results_path):
         print("No results path")
+        return
     else:
         print("path => " + results_path + " strating the execution")
 
@@ -30,12 +31,16 @@ def load_test_results():
     with open(manifest_path) as file:
         manifests_info = json.load(file)
 
-    nodes = manifests_info['nodes'].items()
+    nodes = manifests_info['nodes']
     
 
 
     tests = []
     for test in results['results']:
+        unique_id = None
+        failures = None
+        execution_time = None
+
         unique_id = test['unique_id']
         failures = test['failures']
         execution_time = test['execution_time']
@@ -45,30 +50,47 @@ def load_test_results():
         for date in dates:
             if(date['name']=='execute'):
                 detected_at = date['completed_at']
-            else:
-                detected_at = 'None'
+                break
+
+        table_name = None
+        test_name = None
+        test_metadata = None
+        column_name = None
+        dimension = None
+        description = None
+        impact = None
+        model = None
+        model_final = None
+        table_name_final = None
 
         #extracting model name from manifest node
-        for uid, node in nodes:
-            if uid == unique_id:
-                table_name = node.get('attached_node')
-                test_name = node.get('name')
-                test_metadata = node.get('test_metadata')
+        node = nodes.get(unique_id)
+        if node:
+            table_name = node.get('attached_node')
+            test_name = node.get('name')
+            test_metadata = node.get('test_metadata')
 
-                if test_metadata:
-                    kwargs = test_metadata.get('kwargs')
-                    model = kwargs.get('model')
-                    model1 = ".".join(re.findall(r"'([^']*)'", model))
+            if test_metadata:
+                kwargs = test_metadata.get('kwargs')
+                model = kwargs.get('model')
+                model_final = ".".join(re.findall(r"'([^']*)'", model))
 
-                if(table_name == None):
-                    table_name = node.get('config').get('meta').get('model')
-                    if(table_name ==None):
-                        table_name = ", ".join(node.get('depends_on').get('nodes'))
+            if(table_name == None):
+                table_name = node.get('config').get('meta').get('model')
+                if(table_name ==None):
+                    table_name = ", ".join(node.get('depends_on').get('nodes'))
 
-                column_name = node.get('column_name')
-                dimension = node['tags']
-                description = node['meta'].get('description')
-                impact = node['meta'].get('impact')
+            if model_final != None:
+                table_name_final = model_final
+            else:
+                table_name_final = table_name    
+
+            table_name_final = table_name_final.rsplit(".", 1)[-1]
+
+            column_name = node.get('column_name')
+            dimension = node['tags']
+            description = node['meta'].get('description')
+            impact = node['meta'].get('impact')
 
 
 
@@ -79,9 +101,10 @@ def load_test_results():
                 'GENERATED_AT' : datetime.now(timezone.utc).isoformat(),
                 'TEST_UNIQUE_ID' : test['unique_id'],
                 'TEST_NAME' : test_name,
-                'MODEL' : model1,
+                'MODEL' : model_final,
                 'MODEL_RAW' : model,
                 'TABLE_NAME' :  table_name,
+                'TABLE_NAME_FOR_BI' : table_name_final,
                 'COLUMN_NAME' : column_name,
                 'DIMENSION' : dimension,
                 'DESCRIPTION' : description,
@@ -102,15 +125,14 @@ def load_test_results():
         print("No test results in the run_results.json. Maybe you need to run 'dbt test'")
         return
 
-    conn = get_snowflake_connection()
-
-    tup = write_pandas(
-        conn,
-        df,
-        table_name='TEST_RESULTS_FROM_JSON',
-        auto_create_table=True,
-        overwrite=False
-    )
+    with get_snowflake_connection() as conn:
+        tup = write_pandas(
+            conn,
+            df,
+            table_name='TEST_RESULTS_FROM_JSON',
+            auto_create_table=True,
+            overwrite=False
+        )
 
     print(tup)
 
