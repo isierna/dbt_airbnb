@@ -11,7 +11,7 @@ def get_snowflake_connection():
         profiles = yaml.safe_load(file)
 
     profile_name = 'airbnb'
-    target_name = 'dev_new'
+    target_name = 'dev_new_feb_2026'
 
     target = profiles[profile_name]['outputs'][target_name]
 

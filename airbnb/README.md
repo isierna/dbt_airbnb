@@ -4,7 +4,7 @@ Welcome to your new dbt project!
 
 Try running the following commands:
 - dbt run
-- dbt test
+- dbt test (run 'python scripts/load_test_results.py' => It will generate table with test results for BI tool.)
 
 
 ### Resources:

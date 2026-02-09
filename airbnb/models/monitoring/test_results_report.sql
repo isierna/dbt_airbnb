@@ -21,8 +21,8 @@
             tr.detected_at as detected_at,
             rr.execution_time as execution_time
     from
-            {{ source('airbnb', 'elementary_test_results') }} AS tr 
-            LEFT JOIN {{ source('airbnb', 'dbt_tests') }} t ON tr.TEST_UNIQUE_ID = t.UNIQUE_ID
-            LEFT JOIN {{ source('airbnb', 'dbt_run_results') }} rr ON tr.TEST_UNIQUE_ID = rr.unique_id AND rr.resource_type='test' AND DATE_TRUNC('minute', rr.generated_at::timestamp) = DATE_TRUNC('minute', tr.detected_at)
+            {{ ref('elementary_test_results') }} AS tr 
+            LEFT JOIN {{ ref('dbt_tests') }} t ON tr.TEST_UNIQUE_ID = t.UNIQUE_ID
+            LEFT JOIN {{ ref('dbt_run_results') }} rr ON tr.TEST_UNIQUE_ID = rr.unique_id AND rr.resource_type='test' AND DATE_TRUNC('minute', rr.generated_at::timestamp) = DATE_TRUNC('minute', tr.detected_at)
     where date_trunc('minute', detected_at) = (select max(date_trunc('minute', detected_at)) from AIRBNB.DEV_ELEMENTARY.ELEMENTARY_TEST_RESULTS)
     order by test_name

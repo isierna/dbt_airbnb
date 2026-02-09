@@ -58,12 +58,8 @@ data_tests:
   +store_failures: true
   +schema: _test_failures
 
-  airbnb:
-    consistency:
-      +tags: ['consistency']
-
-flags:
-  require_generic_test_arguments_property: true
+#flags:
+  #require_generic_test_arguments_property: true
 
 vars:
   user_name: default_user_name_for_project_defined_in_dbt_project_file

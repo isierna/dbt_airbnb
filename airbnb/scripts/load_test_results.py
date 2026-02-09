@@ -4,6 +4,7 @@ import os
 import re
 from connection import *
 from snowflake.connector.pandas_tools import write_pandas
+from datetime import datetime, timezone
 
 def load_test_results():
     #path to run_results.json
@@ -17,6 +18,8 @@ def load_test_results():
     #opening results.json file
     with open(results_path) as file:
         results = json.load(file)
+    
+    invocation_id = results['metadata']['invocation_id']
 
 
 
@@ -34,6 +37,8 @@ def load_test_results():
     tests = []
     for test in results['results']:
         unique_id = test['unique_id']
+        failures = test['failures']
+        execution_time = test['execution_time']
 
         #extracting execution date from run_results.json file
         dates = test['timing']
@@ -49,26 +54,42 @@ def load_test_results():
                 table_name = node.get('attached_node')
                 test_name = node.get('name')
                 test_metadata = node.get('test_metadata')
+
                 if test_metadata:
                     kwargs = test_metadata.get('kwargs')
                     model = kwargs.get('model')
                     model1 = ".".join(re.findall(r"'([^']*)'", model))
+
                 if(table_name == None):
                     table_name = node.get('config').get('meta').get('model')
                     if(table_name ==None):
                         table_name = ", ".join(node.get('depends_on').get('nodes'))
 
+                column_name = node.get('column_name')
+                dimension = node['tags']
+                description = node['meta'].get('description')
+                impact = node['meta'].get('impact')
+
+
 
 
         if unique_id.startswith('test'):
             tests.append({
-                'test_unique_id' : test['unique_id'],
-                'test_name' : test_name,
-                'status' : test['status'],
-                'detected_at' : detected_at,
-                'table_name' : table_name,
-                'test_metadata' : model,
-                'test_metadata1' : model1
+                'INVOCATION_ID' : invocation_id,
+                'GENERATED_AT' : datetime.now(timezone.utc).isoformat(),
+                'TEST_UNIQUE_ID' : test['unique_id'],
+                'TEST_NAME' : test_name,
+                'MODEL' : model1,
+                'MODEL_RAW' : model,
+                'TABLE_NAME' :  table_name,
+                'COLUMN_NAME' : column_name,
+                'DIMENSION' : dimension,
+                'DESCRIPTION' : description,
+                'IMPACT' : impact,
+                'TEST_RESULT' : test['status'],
+                'FAILURE_COUNT' : failures,
+                'DETECTED_AT' : detected_at,
+                'EXECUTION_TIME' : execution_time
                 })
             
 
@@ -76,14 +97,19 @@ def load_test_results():
 
     df = pd.DataFrame(tests)
 
+    #check if dataframe is not empty
+    if(df.empty):
+        print("No test results in the run_results.json. Maybe you need to run 'dbt test'")
+        return
+
     conn = get_snowflake_connection()
 
     tup = write_pandas(
         conn,
         df,
-        table_name='test_results_from_json',
+        table_name='TEST_RESULTS_FROM_JSON',
         auto_create_table=True,
-        overwrite=True
+        overwrite=False
     )
 
     print(tup)
@@ -91,6 +117,4 @@ def load_test_results():
 
 
 if __name__ == "__main__":
-    # conn = get_snowflake_connection()
-    # print_connection_info(conn)
     load_test_results()
