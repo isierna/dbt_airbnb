@@ -23,25 +23,28 @@ def load_source_freshness():
         max_loaded_at = result['max_loaded_at']
         snapshotted_at = result['snapshotted_at']
         freshness_time = result['max_loaded_at_time_ago_in_s']
+        status = result['status']
 
         results.append({
             'EXECUTION_ID' : execution_id,
             'UNIQUE_ID' : unique_id,
             'MAX_LOADED_AT' : max_loaded_at,
             'SNAPSHOTTED_AT' : snapshotted_at,
-            'SINCE_LAST_UPDATE' : freshness_time
+            'SINCE_LAST_UPDATE' : freshness_time,
+            'FRESHNESS_STATUS' : status
         })
 
     df = pd.DataFrame(results)
-    conn = get_snowflake_connection()
+    # conn = get_snowflake_connection()
 
-    write_pandas(
-        conn,
-        df,
-        table_name='FRESHNESS_FROM_JSON',
-        auto_create_table=True,
-        overwrite=True
-    )
+    with get_snowflake_connection() as conn:
+        write_pandas(
+            conn,
+            df,
+            table_name='FRESHNESS_FROM_JSON',
+            auto_create_table=True,
+            overwrite=False
+        )
 
     print("Finished")
 

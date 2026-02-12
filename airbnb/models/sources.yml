@@ -106,7 +106,7 @@ sources:
                 arguments:
                   min_value: 0.01
                 config:
-                  tags: ['accuracy']
+                  tags: ['validity']
             - iqr_outliers:
                 arguments:
                   group_by: ['currency']
@@ -120,6 +120,16 @@ sources:
                 values: ['SEK','CAD','AUD','GBP','JPY','CHF','NOK','DKK','USD','EUR','NZD']
                 config:
                   tags: ['validity']
+                meta:
+                  impact: 'high'
+                  description: 'Verify that there are no unexpected currencies in the records.'
+            - no_placeholder_values:
+                additional_placeholders: ['pending','xxx']
+                config:
+                  tags: ['validity']
+                meta:
+                  impact: 'critical'
+                  description: 'Teset is revealing invalid placeholders like: n/a, -, none, tdb, empty.'
         - name: loaded_at
           tests:
             - not_null:
@@ -139,6 +149,9 @@ sources:
         columns:
           - name: customer_id
             tests:
+            - not_null:
+                config:
+                  tags: ['completeness']
             - unique:
                 config:
                   tags: ['uniqueness']
