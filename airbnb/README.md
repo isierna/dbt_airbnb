@@ -5,6 +5,7 @@ Welcome to your new dbt project!
 Try running the following commands:
 - dbt run
 - dbt source freshness
+- python scripts/customer_address_matches_country.py => Python script that creates customer_address_country_mismatches table for singular test (tests/consistency/address_city_and_customer_country_match_test.sql)
 - dbt test (
     Python scripts that parses the run results json files in target:
      - run 'python scripts/load_test_results.py' => It will generate table with test results for BI tool.
