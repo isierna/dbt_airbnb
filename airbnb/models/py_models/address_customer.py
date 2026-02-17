@@ -23,8 +23,8 @@ def model(dbt, session):
     customers['EXTRACTED_CITY'] = customers['ADDRESS'].apply(extract_city)
 
     # Step 2: Find expected country by matching extracted city with seed
-    city_to_country = cities.drop_duplicates(subset='CITY')
-    city_to_country['CITY_LOWER'] = city_to_country['CITY'].str.lower().str.strip()
+    city_to_country = cities.drop_duplicates(subset='NAME')
+    city_to_country['CITY_LOWER'] = city_to_country['NAME'].str.lower().str.strip()
 
     customers['CITY_LOWER'] = customers['EXTRACTED_CITY'].str.lower().str.strip()
 

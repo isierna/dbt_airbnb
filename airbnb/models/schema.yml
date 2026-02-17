@@ -183,3 +183,17 @@ models:
                 tags: ['validity']
               meta:
                 impact: 'medium'
+  - name: iqr_orders
+    columns: 
+      - name: order_amount
+        data_tests: 
+          - iqr_outliers_beta:
+              multiplier: 3
+              min_records: 100
+              group_by: ['category']
+              where: 'order_amount > 0'
+              config:
+                severity: 'warn'
+                tags: ['accuracy']
+              meta:
+                impact: 'medium'

@@ -1,0 +1,954 @@
+order_id,order_date,customer_id,category,quantity,unit_price,order_amount,discount_amount,shipping_cost,total_amount,payment_method,status,country
+ORD-1001,2024-01-01,CUST-858,Electronics,3,160.2,480.6,7.39,0,473.21,credit_card,refunded,FR
+ORD-1002,2024-01-02,CUST-127,Electronics,1,148.39,148.39,0,0,148.39,debit_card,pending,FR
+ORD-1003,2024-01-03,CUST-263,Books,5,18.29,91.45,0,13.1,104.55,bank_transfer,completed,DE
+ORD-1004,2024-01-03,CUST-194,Clothing,2,144.22,288.44,0,0,288.44,bank_transfer,completed,CA
+ORD-1005,2024-01-04,CUST-649,Sports,3,246.96,740.88,0,0,740.88,credit_card,completed,US
+ORD-1006,2024-01-04,CUST-982,Sports,3,253.09,759.27,0,0,759.27,paypal,refunded,UK
+ORD-1007,2024-01-04,CUST-181,Electronics,1,347.57,347.57,0,0,347.57,debit_card,completed,FR
+ORD-1008,2024-01-05,CUST-818,Books,3,14.02,42.06,0,12.03,54.09,credit_card,refunded,US
+ORD-1009,2024-01-05,CUST-755,Sports,2,69.94,139.88,0,0,139.88,debit_card,pending,CA
+ORD-1010,2024-01-05,CUST-510,Electronics,2,419.81,839.62,0,0,839.62,paypal,completed,UK
+ORD-1011,2024-01-06,CUST-569,Clothing,4,68.41,273.64,0,0,273.64,debit_card,completed,US
+ORD-1012,2024-01-06,CUST-538,Clothing,5,87.76,438.8,0,0,438.8,bank_transfer,completed,UK
+ORD-1013,2024-01-06,CUST-981,Clothing,5,81.62,408.1,0,0,408.1,credit_card,completed,US
+ORD-1014,2024-01-07,CUST-579,Sports,1,130.81,130.81,0,0,130.81,paypal,refunded,US
+ORD-1015,2024-01-07,CUST-448,Electronics,5,387.9,1939.5,0,0,1939.5,credit_card,completed,FR
+ORD-1016,2024-01-07,CUST-612,Clothing,4,15.44,61.76,0,12.63,74.39,debit_card,refunded,US
+ORD-1017,2024-01-07,CUST-652,Home & Garden,5,129.61,648.05,74.12,0,573.93,credit_card,refunded,CA
+ORD-1018,2024-01-08,CUST-951,Electronics,1,468.09,468.09,0,0,468.09,paypal,completed,US
+ORD-1019,2024-01-08,CUST-170,Clothing,5,142.84,714.2,52.06,0,662.14,debit_card,completed,AU
+ORD-1020,2024-01-08,CUST-533,Sports,2,97.89,195.78,0,0,195.78,debit_card,refunded,UK
+ORD-1021,2024-01-08,CUST-548,Home & Garden,4,199.13,796.52,0,0,796.52,bank_transfer,completed,UK
+ORD-1022,2024-01-09,CUST-702,Electronics,3,59.47,178.41,0,0,178.41,debit_card,completed,US
+ORD-1023,2024-01-09,CUST-626,Electronics,2,80.33,160.66,7.96,0,152.7,debit_card,completed,AU
+ORD-1024,2024-01-10,CUST-690,Sports,2,223.92,447.84,0,0,447.84,bank_transfer,completed,AU
+ORD-1025,2024-01-10,CUST-520,Books,2,11.49,22.98,0,8.24,31.22,bank_transfer,pending,US
+ORD-1026,2024-01-11,CUST-211,Electronics,4,377.7,1510.8,0,0,1510.8,debit_card,completed,UK
+ORD-1027,2024-01-12,CUST-995,Clothing,4,39.77,159.08,0,0,159.08,credit_card,completed,US
+ORD-1028,2024-01-12,CUST-871,Electronics,5,426.21,2131.05,0,0,2131.05,debit_card,completed,FR
+ORD-1029,2024-01-12,CUST-488,Books,4,15.91,63.64,0,4.69,68.33,credit_card,completed,DE
+ORD-1030,2024-01-12,CUST-669,Books,3,23.65,70.95,0,15.94,86.89,bank_transfer,completed,UK
+ORD-1031,2024-01-13,CUST-158,Clothing,1,93.19,93.19,0,12.97,106.16,credit_card,refunded,AU
+ORD-1032,2024-01-13,CUST-182,Sports,5,68.29,341.45,0,0,341.45,debit_card,completed,US
+ORD-1033,2024-01-13,CUST-352,Clothing,4,31.18,124.72,0,0,124.72,credit_card,refunded,US
+ORD-1034,2024-01-14,CUST-309,Sports,5,168.77,843.85,0,0,843.85,paypal,completed,DE
+ORD-1035,2024-01-14,CUST-174,Books,2,32.85,65.7,3.12,13.01,75.59,credit_card,completed,US
+ORD-1036,2024-01-14,CUST-170,Electronics,5,145.92,729.6,102.14,0,627.46,debit_card,completed,DE
+ORD-1037,2024-01-14,CUST-726,Clothing,4,127.56,510.24,0,0,510.24,credit_card,pending,DE
+ORD-1038,2024-01-15,CUST-719,Clothing,3,30.58,91.74,7.61,7.26,91.39,debit_card,pending,CA
+ORD-1949,2024-01-15,CUST-203,Home & Garden,0,0,0,0,0,0,paypal,pending,US
+ORD-1039,2024-01-16,CUST-966,Home & Garden,5,107.94,539.7,0,0,539.7,credit_card,completed,FR
+ORD-1040,2024-01-16,CUST-368,Home & Garden,1,20.64,20.64,0,11.64,32.28,debit_card,pending,AU
+ORD-1041,2024-01-17,CUST-252,Sports,1,55.77,55.77,0,12.28,68.05,credit_card,completed,US
+ORD-1042,2024-01-17,CUST-981,Books,2,9.55,19.1,0,15.19,34.29,credit_card,completed,UK
+ORD-1043,2024-01-17,CUST-735,Clothing,1,62.75,62.75,0,14.49,77.24,debit_card,completed,US
+ORD-1044,2024-01-17,CUST-521,Clothing,4,18.35,73.4,0,7.98,81.38,debit_card,completed,US
+ORD-1045,2024-01-18,CUST-412,Books,1,39.77,39.77,4.87,9.51,44.41,debit_card,completed,US
+ORD-1046,2024-01-19,CUST-621,Books,3,18.31,54.93,6.37,8.2,56.76,bank_transfer,pending,CA
+ORD-1047,2024-01-19,CUST-371,Electronics,1,444.67,444.67,38.73,0,405.94,credit_card,completed,FR
+ORD-1048,2024-01-20,CUST-494,Home & Garden,4,129.12,516.48,0,0,516.48,debit_card,completed,US
+ORD-1049,2024-01-20,CUST-859,Books,1,27.24,27.24,0,12.23,39.47,debit_card,completed,FR
+ORD-1050,2024-01-20,CUST-227,Electronics,3,330.42,991.26,0,0,991.26,paypal,refunded,DE
+ORD-1051,2024-01-21,CUST-296,Home & Garden,4,145.5,582.0,0,0,582.0,bank_transfer,pending,FR
+ORD-1052,2024-01-21,CUST-953,Clothing,5,91.83,459.15,0,0,459.15,credit_card,completed,DE
+ORD-1053,2024-01-21,CUST-429,Clothing,4,121.08,484.32,0,0,484.32,bank_transfer,completed,AU
+ORD-1054,2024-01-21,CUST-915,Clothing,5,78.88,394.4,0,0,394.4,debit_card,pending,US
+ORD-1055,2024-01-22,CUST-869,Sports,5,117.18,585.9,0,0,585.9,debit_card,pending,DE
+ORD-1056,2024-01-22,CUST-886,Clothing,2,34.89,69.78,10.3,11.33,70.81,credit_card,completed,FR
+ORD-1057,2024-01-22,CUST-509,Sports,2,222.55,445.1,0,0,445.1,debit_card,completed,US
+ORD-1058,2024-01-23,CUST-151,Books,2,14.51,29.02,0,10.21,39.23,debit_card,completed,AU
+ORD-1059,2024-01-24,CUST-873,Books,5,44.55,222.75,0,0,222.75,bank_transfer,refunded,FR
+ORD-1060,2024-01-24,CUST-586,Sports,4,271.73,1086.92,0,0,1086.92,bank_transfer,completed,UK
+ORD-1061,2024-01-25,CUST-392,Sports,4,197.36,789.44,9.18,0,780.26,debit_card,completed,CA
+ORD-1062,2024-01-25,CUST-256,Home & Garden,5,34.5,172.5,9.91,0,162.59,debit_card,completed,FR
+ORD-1063,2024-01-25,CUST-530,Books,3,28.08,84.24,0,6.47,90.71,bank_transfer,refunded,US
+ORD-1064,2024-01-26,CUST-955,Books,1,42.88,42.88,2.51,14.69,55.06,bank_transfer,refunded,UK
+ORD-1065,2024-01-26,CUST-784,Books,2,18.1,36.2,0,8.66,44.86,bank_transfer,pending,US
+ORD-1066,2024-01-26,CUST-706,Books,2,44.29,88.58,0,14.87,103.45,credit_card,completed,FR
+ORD-1067,2024-01-26,CUST-565,Clothing,4,39.53,158.12,7.76,0,150.36,paypal,completed,FR
+ORD-1068,2024-01-27,CUST-867,Books,3,38.89,116.67,0,0,116.67,credit_card,completed,UK
+ORD-1069,2024-01-27,CUST-304,Electronics,1,389.4,389.4,0,0,389.4,credit_card,refunded,US
+ORD-1070,2024-01-27,CUST-576,Clothing,2,78.93,157.86,22.44,0,135.42,paypal,completed,US
+ORD-1071,2024-01-28,CUST-484,Clothing,3,29.59,88.77,4.15,12.12,96.74,bank_transfer,pending,UK
+ORD-1072,2024-01-29,CUST-970,Sports,2,53.02,106.04,0,0,106.04,credit_card,refunded,US
+ORD-1073,2024-01-30,CUST-112,Sports,4,206.92,827.68,80.39,0,747.29,bank_transfer,completed,US
+ORD-1074,2024-01-30,CUST-545,Books,3,31.52,94.56,0,12.48,107.04,debit_card,pending,DE
+ORD-1075,2024-01-30,CUST-945,Sports,5,238.03,1190.15,0,0,1190.15,paypal,completed,UK
+ORD-1076,2024-01-31,CUST-724,Home & Garden,4,63.9,255.6,0,0,255.6,bank_transfer,completed,US
+ORD-1077,2024-02-01,CUST-364,Home & Garden,2,107.76,215.52,0,0,215.52,paypal,completed,DE
+ORD-1078,2024-02-01,CUST-516,Sports,1,167.07,167.07,6.05,0,161.02,bank_transfer,refunded,UK
+ORD-1079,2024-02-01,CUST-349,Books,4,24.58,98.32,4.34,8.84,102.82,paypal,pending,CA
+ORD-1080,2024-02-01,CUST-863,Books,5,27.64,138.2,0,0,138.2,paypal,completed,AU
+ORD-1081,2024-02-02,CUST-423,Home & Garden,3,61.5,184.5,0,0,184.5,credit_card,pending,US
+ORD-1082,2024-02-02,CUST-878,Clothing,2,114.71,229.42,20.29,0,209.13,paypal,completed,UK
+ORD-1083,2024-02-02,CUST-825,Home & Garden,2,84.96,169.92,0,0,169.92,debit_card,completed,US
+ORD-1084,2024-02-03,CUST-602,Sports,3,216.79,650.37,84.72,0,565.65,credit_card,completed,DE
+ORD-1085,2024-02-04,CUST-982,Books,4,20.61,82.44,0,7.02,89.46,bank_transfer,completed,US
+ORD-1086,2024-02-04,CUST-252,Books,4,10.74,42.96,0,4.63,47.59,paypal,completed,UK
+ORD-1087,2024-02-04,CUST-909,Electronics,5,394.0,1970.0,0,0,1970.0,debit_card,refunded,FR
+ORD-1088,2024-02-04,CUST-682,Books,4,19.0,76.0,0,9.14,85.14,credit_card,refunded,US
+ORD-1089,2024-02-05,CUST-176,Clothing,3,104.16,312.48,8.15,0,304.33,debit_card,completed,FR
+ORD-1090,2024-02-05,CUST-389,Books,5,25.39,126.95,5.49,0,121.46,bank_transfer,completed,UK
+ORD-1091,2024-02-06,CUST-763,Sports,2,141.91,283.82,0,0,283.82,debit_card,completed,US
+ORD-1092,2024-02-06,CUST-866,Electronics,1,124.67,124.67,0,0,124.67,paypal,completed,US
+ORD-1093,2024-02-06,CUST-612,Books,3,33.89,101.67,0,0,101.67,bank_transfer,completed,US
+ORD-1094,2024-02-07,CUST-981,Books,3,30.34,91.02,3.13,12.08,99.97,credit_card,pending,DE
+ORD-1095,2024-02-08,CUST-384,Clothing,4,85.06,340.24,0,0,340.24,debit_card,refunded,FR
+ORD-1096,2024-02-09,CUST-786,Electronics,4,206.58,826.32,0,0,826.32,credit_card,completed,CA
+ORD-1097,2024-02-09,CUST-663,Books,4,18.66,74.64,0,13.75,88.39,credit_card,completed,US
+ORD-1098,2024-02-09,CUST-513,Home & Garden,3,78.19,234.57,0,0,234.57,credit_card,pending,AU
+ORD-1099,2024-02-09,CUST-740,Books,1,14.94,14.94,0,13.07,28.01,bank_transfer,completed,UK
+ORD-1100,2024-02-10,CUST-815,Sports,2,280.11,560.22,0,0,560.22,bank_transfer,completed,US
+ORD-1101,2024-02-10,CUST-114,Sports,2,220.19,440.38,0,0,440.38,bank_transfer,completed,UK
+ORD-1102,2024-02-10,CUST-257,Electronics,4,476.18,1904.72,0,0,1904.72,bank_transfer,pending,DE
+ORD-1103,2024-02-11,CUST-492,Books,4,44.27,177.08,14.64,0,162.44,debit_card,refunded,US
+ORD-1104,2024-02-11,CUST-448,Electronics,3,397.7,1193.1,0,0,1193.1,paypal,completed,DE
+ORD-1105,2024-02-11,CUST-986,Home & Garden,5,124.39,621.95,0,0,621.95,debit_card,completed,AU
+ORD-1106,2024-02-12,CUST-429,Home & Garden,5,157.32,786.6,0,0,786.6,debit_card,pending,UK
+ORD-1107,2024-02-12,CUST-144,Sports,4,89.23,356.92,0,0,356.92,paypal,pending,AU
+ORD-1108,2024-02-12,CUST-767,Books,4,44.57,178.28,0,0,178.28,debit_card,completed,US
+ORD-1109,2024-02-13,CUST-202,Sports,5,116.3,581.5,73.71,0,507.79,bank_transfer,completed,US
+ORD-1110,2024-02-13,CUST-738,Books,2,10.77,21.54,0,7.17,28.71,bank_transfer,pending,US
+ORD-1111,2024-02-14,CUST-877,Sports,4,287.39,1149.56,0,0,1149.56,bank_transfer,refunded,US
+ORD-1112,2024-02-14,CUST-332,Sports,1,89.56,89.56,0,7.44,97.0,credit_card,completed,US
+ORD-1113,2024-02-14,CUST-432,Electronics,4,124.86,499.44,2.17,0,497.27,credit_card,completed,CA
+ORD-1937,2024-02-14,CUST-380,Electronics,182,572.8,23181.82,0,0,39878.91,debit_card,completed,US
+ORD-1114,2024-02-15,CUST-284,Books,2,17.04,34.08,0,12.17,46.25,debit_card,completed,US
+ORD-1115,2024-02-15,CUST-246,Sports,4,195.42,781.68,107.03,0,674.65,debit_card,completed,DE
+ORD-1116,2024-02-15,CUST-394,Books,3,32.67,98.01,0,9.57,107.58,debit_card,completed,AU
+ORD-1117,2024-02-16,CUST-356,Sports,3,200.71,602.13,0,0,602.13,bank_transfer,completed,UK
+ORD-1118,2024-02-16,CUST-402,Books,4,11.95,47.8,0,8.3,56.1,paypal,completed,FR
+ORD-1119,2024-02-16,CUST-862,Home & Garden,1,121.87,121.87,0,0,121.87,credit_card,refunded,AU
+ORD-1120,2024-02-17,CUST-356,Clothing,5,123.26,616.3,17.58,0,598.72,debit_card,pending,US
+ORD-1121,2024-02-17,CUST-234,Electronics,3,404.87,1214.61,66.47,0,1148.14,credit_card,completed,CA
+ORD-1122,2024-02-17,CUST-474,Books,2,15.43,30.86,0,14.51,45.37,paypal,completed,DE
+ORD-1123,2024-02-18,CUST-177,Home & Garden,3,164.76,494.28,0,0,494.28,debit_card,completed,FR
+ORD-1124,2024-02-18,CUST-370,Sports,3,49.83,149.49,0,0,149.49,credit_card,completed,CA
+ORD-1125,2024-02-18,CUST-480,Home & Garden,5,88.58,442.9,0,0,442.9,credit_card,pending,UK
+ORD-1126,2024-02-18,CUST-724,Books,1,30.92,30.92,0,7.93,38.85,debit_card,pending,US
+ORD-1127,2024-02-19,CUST-604,Home & Garden,4,41.0,164.0,0.92,0,163.08,credit_card,completed,UK
+ORD-1128,2024-02-19,CUST-860,Sports,2,131.88,263.76,0,0,263.76,bank_transfer,refunded,US
+ORD-1129,2024-02-19,CUST-386,Books,1,38.85,38.85,0,15.26,54.11,credit_card,pending,CA
+ORD-1130,2024-02-19,CUST-802,Clothing,4,75.03,300.12,16.33,0,283.79,paypal,refunded,CA
+ORD-1131,2024-02-20,CUST-778,Books,3,15.02,45.06,5.73,9.45,48.78,debit_card,pending,US
+ORD-1132,2024-02-21,CUST-310,Home & Garden,2,197.99,395.98,0,0,395.98,credit_card,refunded,UK
+ORD-1133,2024-02-22,CUST-710,Clothing,3,119.54,358.62,0,0,358.62,credit_card,completed,US
+ORD-1134,2024-02-22,CUST-126,Clothing,5,48.84,244.2,24.21,0,219.99,debit_card,completed,CA
+ORD-1135,2024-02-23,CUST-216,Sports,3,29.34,88.02,1.67,9.04,95.39,credit_card,completed,AU
+ORD-1136,2024-02-23,CUST-326,Home & Garden,5,126.86,634.3,0,0,634.3,credit_card,pending,DE
+ORD-1137,2024-02-24,CUST-536,Electronics,1,499.36,499.36,0,0,499.36,credit_card,completed,AU
+ORD-1138,2024-02-24,CUST-739,Electronics,1,194.95,194.95,3.69,0,191.26,paypal,completed,DE
+ORD-1139,2024-02-24,CUST-973,Books,5,30.4,152.0,16.0,0,136.0,debit_card,completed,AU
+ORD-1140,2024-02-24,CUST-525,Clothing,4,60.76,243.04,0,0,243.04,credit_card,completed,FR
+ORD-1141,2024-02-25,CUST-585,Home & Garden,3,191.65,574.95,0,0,574.95,credit_card,completed,US
+ORD-1142,2024-02-25,CUST-931,Electronics,4,93.45,373.8,0,0,373.8,debit_card,refunded,US
+ORD-1143,2024-02-25,CUST-520,Sports,5,179.46,897.3,0,0,897.3,paypal,pending,FR
+ORD-1144,2024-02-26,CUST-258,Home & Garden,5,76.24,381.2,29.01,0,352.19,bank_transfer,completed,US
+ORD-1145,2024-02-27,CUST-539,Sports,3,56.59,169.77,5.76,0,164.01,credit_card,refunded,DE
+ORD-1146,2024-02-27,CUST-447,Electronics,2,172.97,345.94,0,0,345.94,paypal,completed,US
+ORD-1147,2024-02-27,CUST-131,Clothing,5,103.74,518.7,57.65,0,461.05,credit_card,pending,UK
+ORD-1148,2024-02-28,CUST-895,Books,4,20.61,82.44,0,12.65,95.09,credit_card,completed,US
+ORD-1149,2024-02-28,CUST-534,Clothing,5,21.72,108.6,7.22,0,101.38,bank_transfer,refunded,AU
+ORD-1150,2024-02-28,CUST-213,Books,3,15.98,47.94,0,8.13,56.07,paypal,pending,AU
+ORD-1151,2024-02-28,CUST-713,Sports,3,37.49,112.47,0,0,112.47,credit_card,completed,UK
+ORD-1152,2024-02-29,CUST-609,Clothing,2,118.16,236.32,4.25,0,232.07,bank_transfer,completed,US
+ORD-1153,2024-02-29,CUST-953,Books,5,34.04,170.2,0,0,170.2,paypal,completed,FR
+ORD-1154,2024-02-29,CUST-982,Electronics,4,58.43,233.72,0,0,233.72,paypal,refunded,FR
+ORD-1155,2024-03-01,CUST-732,Books,3,12.26,36.78,1.79,13.61,48.6,bank_transfer,pending,CA
+ORD-1156,2024-03-01,CUST-636,Electronics,4,430.02,1720.08,151.94,0,1568.14,credit_card,completed,DE
+ORD-1157,2024-03-01,CUST-216,Home & Garden,2,79.95,159.9,12.24,0,147.66,debit_card,completed,CA
+ORD-1158,2024-03-01,CUST-877,Clothing,2,28.88,57.76,1.5,5.82,62.08,credit_card,completed,AU
+ORD-1159,2024-03-02,CUST-678,Sports,5,148.45,742.25,0,0,742.25,paypal,pending,CA
+ORD-1160,2024-03-02,CUST-381,Clothing,4,24.22,96.88,0,7.62,104.5,credit_card,completed,US
+ORD-1161,2024-03-02,CUST-178,Home & Garden,4,101.34,405.36,50.57,0,354.79,credit_card,refunded,FR
+ORD-1162,2024-03-02,CUST-142,Books,5,28.51,142.55,0,0,142.55,bank_transfer,refunded,UK
+ORD-1163,2024-03-03,CUST-561,Sports,4,162.88,651.52,0,0,651.52,credit_card,completed,US
+ORD-1164,2024-03-03,CUST-636,Sports,2,35.76,71.52,0,15.88,87.4,debit_card,completed,CA
+ORD-1165,2024-03-03,CUST-712,Home & Garden,4,93.58,374.32,0,0,374.32,credit_card,pending,CA
+ORD-1166,2024-03-04,CUST-358,Home & Garden,1,120.43,120.43,0,0,120.43,debit_card,completed,US
+ORD-1167,2024-03-05,CUST-501,Home & Garden,3,194.19,582.57,0,0,582.57,debit_card,refunded,US
+ORD-1168,2024-03-05,CUST-932,Home & Garden,5,87.8,439.0,0,0,439.0,debit_card,pending,US
+ORD-1169,2024-03-06,CUST-449,Sports,3,30.01,90.03,0,15.4,105.43,bank_transfer,completed,UK
+ORD-1170,2024-03-06,CUST-889,Clothing,2,25.42,50.84,0,5.2,56.04,credit_card,pending,CA
+ORD-1171,2024-03-06,CUST-809,Sports,2,189.24,378.48,10.27,0,368.21,debit_card,pending,AU
+ORD-1172,2024-03-06,CUST-554,Electronics,4,213.93,855.72,0,0,855.72,paypal,pending,AU
+ORD-1173,2024-03-07,CUST-580,Sports,2,110.1,220.2,0,0,220.2,debit_card,completed,AU
+ORD-1174,2024-03-07,CUST-528,Books,3,36.79,110.37,0,0,110.37,debit_card,completed,US
+ORD-1175,2024-03-08,CUST-205,Electronics,4,443.35,1773.4,0,0,1773.4,credit_card,completed,US
+ORD-1176,2024-03-08,CUST-950,Clothing,3,75.66,226.98,0,0,226.98,bank_transfer,completed,UK
+ORD-1177,2024-03-08,CUST-505,Books,3,42.43,127.29,0,0,127.29,paypal,completed,FR
+ORD-1178,2024-03-09,CUST-765,Home & Garden,2,25.07,50.14,0,14.06,64.2,paypal,completed,US
+ORD-1179,2024-03-10,CUST-559,Home & Garden,4,145.29,581.16,61.5,0,519.66,credit_card,completed,US
+ORD-1943,2024-03-10,CUST-134,Books,1,0.16,0.43,0,0,0.04,credit_card,completed,US
+ORD-1180,2024-03-11,CUST-640,Clothing,2,89.09,178.18,0,0,178.18,bank_transfer,completed,DE
+ORD-1181,2024-03-11,CUST-164,Clothing,3,31.45,94.35,9.04,11.46,96.77,credit_card,completed,US
+ORD-1182,2024-03-11,CUST-729,Sports,5,91.53,457.65,29.47,0,428.18,paypal,completed,FR
+ORD-1183,2024-03-12,CUST-619,Electronics,5,488.59,2442.95,192.77,0,2250.18,credit_card,completed,AU
+ORD-1184,2024-03-12,CUST-907,Electronics,4,491.47,1965.88,4.79,0,1961.09,credit_card,completed,UK
+ORD-1185,2024-03-13,CUST-446,Sports,3,61.69,185.07,0,0,185.07,debit_card,pending,AU
+ORD-1186,2024-03-14,CUST-400,Clothing,2,23.52,47.04,0,9.48,56.52,debit_card,completed,UK
+ORD-1187,2024-03-14,CUST-934,Electronics,3,470.02,1410.06,0,0,1410.06,bank_transfer,completed,US
+ORD-1188,2024-03-14,CUST-986,Clothing,3,63.19,189.57,0,0,189.57,paypal,completed,US
+ORD-1189,2024-03-14,CUST-495,Home & Garden,4,180.11,720.44,0,0,720.44,paypal,completed,AU
+ORD-1190,2024-03-15,CUST-540,Home & Garden,5,68.01,340.05,21.65,0,318.4,debit_card,refunded,DE
+ORD-1191,2024-03-15,CUST-717,Home & Garden,1,34.41,34.41,0,7.67,42.08,bank_transfer,completed,AU
+ORD-1192,2024-03-15,CUST-461,Home & Garden,4,27.62,110.48,0,0,110.48,bank_transfer,completed,US
+ORD-1193,2024-03-15,CUST-795,Electronics,4,213.49,853.96,0,0,853.96,debit_card,completed,US
+ORD-1194,2024-03-16,CUST-475,Electronics,2,80.26,160.52,0,0,160.52,paypal,completed,US
+ORD-1195,2024-03-16,CUST-480,Sports,2,211.74,423.48,0,0,423.48,bank_transfer,completed,US
+ORD-1196,2024-03-16,CUST-355,Sports,3,134.46,403.38,0,0,403.38,credit_card,completed,US
+ORD-1197,2024-03-16,CUST-368,Books,5,22.32,111.6,0,0,111.6,paypal,pending,AU
+ORD-1198,2024-03-17,CUST-304,Sports,3,215.84,647.52,0,0,647.52,credit_card,completed,US
+ORD-1199,2024-03-17,CUST-798,Books,2,41.25,82.5,0,5.04,87.54,paypal,pending,CA
+ORD-1200,2024-03-18,CUST-826,Sports,5,104.85,524.25,12.39,0,511.86,debit_card,completed,UK
+ORD-1201,2024-03-19,CUST-686,Clothing,2,46.96,93.92,0,8.32,102.24,paypal,completed,US
+ORD-1202,2024-03-20,CUST-590,Electronics,3,229.17,687.51,0,0,687.51,bank_transfer,completed,US
+ORD-1203,2024-03-21,CUST-452,Home & Garden,1,101.0,101.0,0,0,101.0,debit_card,refunded,US
+ORD-1204,2024-03-21,CUST-951,Clothing,4,82.89,331.56,0,0,331.56,credit_card,refunded,US
+ORD-1205,2024-03-22,CUST-454,Clothing,2,58.56,117.12,0,0,117.12,paypal,completed,DE
+ORD-1206,2024-03-22,CUST-729,Clothing,5,52.05,260.25,0,0,260.25,credit_card,refunded,US
+ORD-1207,2024-03-22,CUST-837,Sports,5,67.4,337.0,0,0,337.0,paypal,refunded,US
+ORD-1208,2024-03-23,CUST-371,Electronics,1,476.85,476.85,0,0,476.85,debit_card,refunded,FR
+ORD-1209,2024-03-24,CUST-924,Books,5,18.72,93.6,0,9.79,103.39,bank_transfer,completed,AU
+ORD-1210,2024-03-25,CUST-308,Electronics,2,247.82,495.64,0,0,495.64,paypal,refunded,US
+ORD-1952,2024-03-25,CUST-297,Clothing,2,41.41,82.82,124.23,0,-41.41,credit_card,completed,DE
+ORD-1211,2024-03-26,CUST-675,Home & Garden,3,195.57,586.71,32.61,0,554.1,credit_card,completed,UK
+ORD-1212,2024-03-26,CUST-493,Books,1,17.9,17.9,0.26,7.47,25.11,bank_transfer,completed,US
+ORD-1213,2024-03-26,CUST-627,Home & Garden,5,149.8,749.0,17.9,0,731.1,bank_transfer,completed,DE
+ORD-1214,2024-03-27,CUST-346,Electronics,1,475.35,475.35,0,0,475.35,debit_card,refunded,CA
+ORD-1215,2024-03-27,CUST-963,Electronics,1,176.61,176.61,0,0,176.61,bank_transfer,completed,US
+ORD-1216,2024-03-27,CUST-512,Electronics,4,110.27,441.08,24.2,0,416.88,paypal,completed,FR
+ORD-1217,2024-03-27,CUST-395,Electronics,5,302.82,1514.1,0,0,1514.1,credit_card,completed,AU
+ORD-1218,2024-03-28,CUST-503,Sports,5,57.67,288.35,0,0,288.35,paypal,completed,CA
+ORD-1219,2024-03-28,CUST-141,Clothing,2,96.33,192.66,0,0,192.66,credit_card,completed,US
+ORD-1220,2024-03-28,CUST-243,Home & Garden,4,113.48,453.92,60.81,0,393.11,paypal,refunded,CA
+ORD-1221,2024-03-29,CUST-948,Books,5,35.35,176.75,8.92,0,167.83,bank_transfer,pending,DE
+ORD-1222,2024-03-29,CUST-697,Books,1,21.63,21.63,0,15.75,37.38,paypal,pending,US
+ORD-1223,2024-03-30,CUST-697,Home & Garden,5,123.97,619.85,0,0,619.85,bank_transfer,completed,FR
+ORD-1224,2024-03-30,CUST-119,Clothing,2,19.26,38.52,0,5.31,43.83,bank_transfer,completed,FR
+ORD-1225,2024-03-30,CUST-893,Clothing,4,108.22,432.88,0,0,432.88,bank_transfer,pending,US
+ORD-1226,2024-03-30,CUST-778,Clothing,5,42.99,214.95,0,0,214.95,bank_transfer,refunded,FR
+ORD-1227,2024-03-31,CUST-462,Clothing,4,138.14,552.56,0,0,552.56,paypal,refunded,AU
+ORD-1228,2024-03-31,CUST-889,Clothing,2,52.67,105.34,14.88,15.78,106.24,paypal,pending,UK
+ORD-1229,2024-03-31,CUST-838,Books,3,25.75,77.25,0,15.2,92.45,paypal,completed,US
+ORD-1230,2024-04-01,CUST-397,Books,3,43.32,129.96,0,0,129.96,credit_card,completed,US
+ORD-1231,2024-04-01,CUST-319,Home & Garden,4,138.07,552.28,0,0,552.28,debit_card,refunded,DE
+ORD-1232,2024-04-01,CUST-700,Sports,3,62.75,188.25,0,0,188.25,debit_card,completed,US
+ORD-1233,2024-04-01,CUST-834,Sports,2,200.43,400.86,24.85,0,376.01,bank_transfer,completed,US
+ORD-1947,2024-04-01,CUST-985,Electronics,1,-230.19,-203.12,0,0,-495.23,bank_transfer,refunded,US
+ORD-1234,2024-04-02,CUST-999,Sports,2,136.9,273.8,0,0,273.8,bank_transfer,completed,UK
+ORD-1235,2024-04-03,CUST-191,Home & Garden,3,136.26,408.78,0,0,408.78,debit_card,refunded,US
+ORD-1236,2024-04-03,CUST-956,Clothing,4,134.1,536.4,73.99,0,462.41,bank_transfer,completed,US
+ORD-1237,2024-04-03,CUST-443,Home & Garden,1,21.67,21.67,0,5.28,26.95,paypal,completed,AU
+ORD-1238,2024-04-04,CUST-438,Sports,4,100.03,400.12,0,0,400.12,debit_card,pending,AU
+ORD-1239,2024-04-04,CUST-790,Home & Garden,2,22.54,45.08,0,7.53,52.61,debit_card,completed,FR
+ORD-1240,2024-04-05,CUST-289,Sports,3,48.85,146.55,0,0,146.55,debit_card,completed,CA
+ORD-1241,2024-04-05,CUST-409,Clothing,1,50.21,50.21,5.68,15.44,59.97,credit_card,completed,CA
+ORD-1242,2024-04-05,CUST-263,Clothing,1,105.15,105.15,0,0,105.15,bank_transfer,pending,DE
+ORD-1243,2024-04-05,CUST-589,Electronics,3,215.39,646.17,92.79,0,553.38,debit_card,completed,CA
+ORD-1244,2024-04-06,CUST-945,Sports,4,233.27,933.08,0,0,933.08,debit_card,completed,US
+ORD-1245,2024-04-06,CUST-677,Sports,4,170.25,681.0,0,0,681.0,credit_card,completed,UK
+ORD-1246,2024-04-06,CUST-632,Sports,5,66.21,331.05,0,0,331.05,bank_transfer,completed,UK
+ORD-1247,2024-04-06,CUST-928,Sports,4,50.01,200.04,0,0,200.04,credit_card,completed,US
+ORD-1248,2024-04-07,CUST-840,Books,5,10.14,50.7,0,13.67,64.37,credit_card,completed,DE
+ORD-1249,2024-04-07,CUST-165,Electronics,2,310.24,620.48,32.07,0,588.41,credit_card,completed,AU
+ORD-1250,2024-04-07,CUST-884,Electronics,3,233.99,701.97,0,0,701.97,bank_transfer,completed,FR
+ORD-1251,2024-04-07,CUST-652,Books,4,21.9,87.6,0,11.93,99.53,debit_card,pending,CA
+ORD-1252,2024-04-08,CUST-954,Clothing,5,68.06,340.3,49.96,0,290.34,credit_card,completed,DE
+ORD-1253,2024-04-09,CUST-353,Sports,4,171.28,685.12,0,0,685.12,bank_transfer,completed,US
+ORD-1254,2024-04-09,CUST-215,Home & Garden,2,188.73,377.46,0,0,377.46,credit_card,pending,FR
+ORD-1255,2024-04-09,CUST-788,Sports,1,91.18,91.18,8.12,9.35,92.41,credit_card,completed,US
+ORD-1256,2024-04-09,CUST-615,Books,4,16.67,66.68,8.64,4.67,62.71,paypal,completed,CA
+ORD-1257,2024-04-10,CUST-633,Clothing,3,133.29,399.87,0,0,399.87,debit_card,completed,DE
+ORD-1258,2024-04-10,CUST-852,Home & Garden,1,120.21,120.21,0,0,120.21,debit_card,pending,FR
+ORD-1259,2024-04-10,CUST-758,Sports,4,37.89,151.56,0,0,151.56,bank_transfer,refunded,CA
+ORD-1260,2024-04-11,CUST-330,Books,2,19.1,38.2,3.08,6.88,42.0,paypal,pending,US
+ORD-1261,2024-04-11,CUST-237,Books,1,28.81,28.81,0,10.68,39.49,bank_transfer,completed,DE
+ORD-1262,2024-04-11,CUST-967,Clothing,3,102.31,306.93,0,0,306.93,paypal,completed,UK
+ORD-1263,2024-04-11,CUST-140,Electronics,3,219.73,659.19,0,0,659.19,credit_card,completed,UK
+ORD-1264,2024-04-12,CUST-316,Clothing,3,55.93,167.79,0,0,167.79,debit_card,pending,US
+ORD-1265,2024-04-12,CUST-345,Books,2,33.74,67.48,0,8.75,76.23,paypal,completed,FR
+ORD-1266,2024-04-12,CUST-468,Books,5,32.0,160.0,0,0,160.0,bank_transfer,completed,US
+ORD-1267,2024-04-12,CUST-523,Books,3,41.83,125.49,0,0,125.49,credit_card,refunded,UK
+ORD-1268,2024-04-13,CUST-837,Electronics,3,298.99,896.97,0,0,896.97,bank_transfer,completed,US
+ORD-1269,2024-04-13,CUST-351,Clothing,3,46.05,138.15,0,0,138.15,bank_transfer,refunded,CA
+ORD-1270,2024-04-14,CUST-460,Books,4,25.05,100.2,0,0,100.2,debit_card,completed,AU
+ORD-1271,2024-04-14,CUST-636,Clothing,5,148.69,743.45,0,0,743.45,credit_card,completed,US
+ORD-1272,2024-04-14,CUST-169,Electronics,4,111.87,447.48,0,0,447.48,debit_card,completed,UK
+ORD-1273,2024-04-15,CUST-731,Home & Garden,1,131.21,131.21,0,0,131.21,bank_transfer,pending,AU
+ORD-1274,2024-04-15,CUST-117,Electronics,1,289.5,289.5,0,0,289.5,paypal,refunded,DE
+ORD-1275,2024-04-15,CUST-925,Electronics,5,415.92,2079.6,0,0,2079.6,debit_card,completed,US
+ORD-1276,2024-04-15,CUST-358,Sports,2,91.27,182.54,0,0,182.54,paypal,completed,FR
+ORD-1277,2024-04-16,CUST-407,Home & Garden,4,102.62,410.48,42.93,0,367.55,credit_card,pending,US
+ORD-1278,2024-04-17,CUST-819,Books,4,21.96,87.84,0,11.63,99.47,debit_card,completed,AU
+ORD-1279,2024-04-18,CUST-640,Home & Garden,5,195.92,979.6,0,0,979.6,credit_card,completed,UK
+ORD-1280,2024-04-18,CUST-800,Sports,4,99.55,398.2,0,0,398.2,paypal,refunded,US
+ORD-1281,2024-04-18,CUST-940,Clothing,3,17.11,51.33,1.11,13.84,64.06,bank_transfer,completed,DE
+ORD-1282,2024-04-18,CUST-498,Clothing,5,47.46,237.3,0,0,237.3,paypal,completed,US
+ORD-1283,2024-04-19,CUST-958,Sports,3,39.77,119.31,0,0,119.31,credit_card,completed,FR
+ORD-1284,2024-04-20,CUST-333,Electronics,3,402.6,1207.8,0,0,1207.8,paypal,refunded,FR
+ORD-1285,2024-04-20,CUST-733,Books,2,33.15,66.3,0,5.02,71.32,paypal,completed,US
+ORD-1286,2024-04-20,CUST-749,Electronics,3,119.4,358.2,0,0,358.2,debit_card,pending,FR
+ORD-1287,2024-04-21,CUST-879,Home & Garden,1,36.47,36.47,0,9.33,45.8,paypal,completed,US
+ORD-1288,2024-04-21,CUST-624,Electronics,2,243.94,487.88,0,0,487.88,bank_transfer,completed,US
+ORD-1289,2024-04-21,CUST-903,Electronics,3,299.4,898.2,0,0,898.2,paypal,completed,US
+ORD-1290,2024-04-22,CUST-672,Books,4,36.83,147.32,0,0,147.32,debit_card,refunded,US
+ORD-1291,2024-04-22,CUST-164,Books,2,13.14,26.28,0,9.91,36.19,debit_card,completed,DE
+ORD-1292,2024-04-22,CUST-740,Books,3,25.92,77.76,2.94,6.95,81.77,bank_transfer,refunded,UK
+ORD-1293,2024-04-23,CUST-440,Electronics,2,187.1,374.2,0,0,374.2,bank_transfer,completed,AU
+ORD-1294,2024-04-23,CUST-708,Home & Garden,4,166.79,667.16,0,0,667.16,debit_card,completed,CA
+ORD-1295,2024-04-23,CUST-426,Sports,2,156.73,313.46,18.72,0,294.74,paypal,pending,AU
+ORD-1296,2024-04-23,CUST-473,Sports,2,114.62,229.24,27.02,0,202.22,credit_card,refunded,UK
+ORD-1297,2024-04-24,CUST-825,Sports,1,287.08,287.08,0,0,287.08,debit_card,completed,DE
+ORD-1298,2024-04-24,CUST-358,Electronics,4,352.84,1411.36,64.11,0,1347.25,debit_card,pending,FR
+ORD-1299,2024-04-25,CUST-510,Electronics,4,495.82,1983.28,0,0,1983.28,bank_transfer,refunded,US
+ORD-1300,2024-04-25,CUST-211,Home & Garden,5,126.89,634.45,0,0,634.45,debit_card,pending,CA
+ORD-1301,2024-04-25,CUST-793,Clothing,5,20.98,104.9,0,0,104.9,bank_transfer,completed,FR
+ORD-1302,2024-04-25,CUST-804,Electronics,1,94.37,94.37,10.57,10.69,94.49,debit_card,completed,CA
+ORD-1303,2024-04-26,CUST-594,Books,5,33.55,167.75,25.1,0,142.65,credit_card,completed,FR
+ORD-1304,2024-04-26,CUST-456,Electronics,1,424.09,424.09,0,0,424.09,paypal,completed,AU
+ORD-1305,2024-04-26,CUST-548,Clothing,5,80.2,401.0,0,0,401.0,bank_transfer,completed,US
+ORD-1306,2024-04-26,CUST-763,Home & Garden,1,165.83,165.83,21.12,0,144.71,credit_card,pending,US
+ORD-1307,2024-04-27,CUST-536,Sports,2,176.78,353.56,0,0,353.56,bank_transfer,completed,FR
+ORD-1308,2024-04-27,CUST-129,Clothing,2,101.46,202.92,0,0,202.92,debit_card,completed,FR
+ORD-1309,2024-04-28,CUST-928,Electronics,2,142.6,285.2,0,0,285.2,credit_card,refunded,US
+ORD-1310,2024-04-28,CUST-786,Sports,2,125.59,251.18,4.29,0,246.89,bank_transfer,refunded,CA
+ORD-1311,2024-04-28,CUST-456,Sports,4,193.11,772.44,0,0,772.44,paypal,completed,US
+ORD-1312,2024-04-28,CUST-420,Home & Garden,5,126.23,631.15,0,0,631.15,credit_card,completed,DE
+ORD-1313,2024-04-29,CUST-528,Clothing,3,108.61,325.83,0,0,325.83,debit_card,refunded,FR
+ORD-1314,2024-04-30,CUST-760,Clothing,4,100.79,403.16,0,0,403.16,debit_card,refunded,US
+ORD-1315,2024-04-30,CUST-154,Books,3,13.19,39.57,0,9.4,48.97,paypal,completed,AU
+ORD-1316,2024-04-30,CUST-617,Clothing,2,125.05,250.1,0,0,250.1,bank_transfer,completed,AU
+ORD-1317,2024-04-30,CUST-879,Books,4,26.08,104.32,0.48,0,103.84,debit_card,completed,US
+ORD-1318,2024-05-01,CUST-679,Clothing,5,53.97,269.85,0,0,269.85,bank_transfer,refunded,US
+ORD-1319,2024-05-01,CUST-655,Sports,1,98.67,98.67,0,15.88,114.55,credit_card,pending,AU
+ORD-1320,2024-05-01,CUST-869,Sports,2,297.19,594.38,74.01,0,520.37,debit_card,completed,US
+ORD-1321,2024-05-02,CUST-220,Home & Garden,3,175.2,525.6,68.22,0,457.38,debit_card,completed,CA
+ORD-1322,2024-05-02,CUST-311,Sports,4,70.64,282.56,8.76,0,273.8,credit_card,refunded,CA
+ORD-1323,2024-05-02,CUST-399,Sports,3,189.14,567.42,83.33,0,484.09,paypal,refunded,DE
+ORD-1324,2024-05-02,CUST-160,Sports,1,62.29,62.29,0,8.93,71.22,paypal,pending,US
+ORD-1325,2024-05-03,CUST-879,Clothing,2,111.04,222.08,0,0,222.08,bank_transfer,completed,US
+ORD-1326,2024-05-03,CUST-177,Sports,3,197.65,592.95,0,0,592.95,credit_card,completed,DE
+ORD-1327,2024-05-04,CUST-848,Books,4,20.11,80.44,9.34,12.78,83.88,bank_transfer,pending,CA
+ORD-1328,2024-05-04,CUST-944,Electronics,5,228.97,1144.85,0,0,1144.85,debit_card,completed,DE
+ORD-1329,2024-05-04,CUST-679,Home & Garden,3,80.8,242.4,0,0,242.4,bank_transfer,completed,US
+ORD-1330,2024-05-05,CUST-261,Electronics,4,57.33,229.32,0,0,229.32,bank_transfer,completed,US
+ORD-1331,2024-05-06,CUST-995,Clothing,2,134.09,268.18,0,0,268.18,paypal,completed,CA
+ORD-1332,2024-05-06,CUST-505,Home & Garden,1,86.93,86.93,0,5.98,92.91,paypal,pending,UK
+ORD-1333,2024-05-06,CUST-331,Books,1,34.04,34.04,2.43,5.58,37.19,bank_transfer,completed,US
+ORD-1334,2024-05-06,CUST-235,Home & Garden,1,197.87,197.87,0,0,197.87,bank_transfer,completed,UK
+ORD-1335,2024-05-07,CUST-491,Electronics,1,96.44,96.44,0,7.58,104.02,debit_card,pending,US
+ORD-1336,2024-05-07,CUST-268,Electronics,5,303.48,1517.4,0,0,1517.4,bank_transfer,completed,UK
+ORD-1337,2024-05-07,CUST-322,Clothing,4,98.17,392.68,0,0,392.68,credit_card,completed,US
+ORD-1338,2024-05-07,CUST-539,Electronics,5,378.5,1892.5,0,0,1892.5,paypal,completed,UK
+ORD-1339,2024-05-08,CUST-722,Electronics,2,299.03,598.06,0,0,598.06,paypal,pending,US
+ORD-1340,2024-05-08,CUST-865,Home & Garden,2,113.19,226.38,0,0,226.38,bank_transfer,completed,US
+ORD-1341,2024-05-08,CUST-172,Clothing,4,67.09,268.36,25.69,0,242.67,credit_card,completed,CA
+ORD-1342,2024-05-09,CUST-276,Books,5,23.57,117.85,0,0,117.85,bank_transfer,completed,US
+ORD-1343,2024-05-09,CUST-507,Sports,1,28.79,28.79,3.98,15.37,40.18,paypal,pending,FR
+ORD-1344,2024-05-10,CUST-185,Books,1,31.7,31.7,0,5.82,37.52,paypal,completed,UK
+ORD-1345,2024-05-10,CUST-881,Clothing,5,59.11,295.55,0,0,295.55,credit_card,completed,FR
+ORD-1346,2024-05-10,CUST-726,Clothing,1,48.0,48.0,0,5.38,53.38,credit_card,completed,US
+ORD-1347,2024-05-10,CUST-267,Electronics,1,368.56,368.56,0,0,368.56,bank_transfer,completed,DE
+ORD-1348,2024-05-11,CUST-850,Home & Garden,2,154.96,309.92,0,0,309.92,credit_card,completed,CA
+ORD-1349,2024-05-11,CUST-608,Books,3,27.38,82.14,12.01,11.52,81.65,bank_transfer,refunded,CA
+ORD-1350,2024-05-12,CUST-790,Books,5,14.17,70.85,8.22,14.72,77.35,credit_card,completed,US
+ORD-1351,2024-05-13,CUST-253,Electronics,2,70.69,141.38,0,0,141.38,debit_card,completed,FR
+ORD-1352,2024-05-14,CUST-377,Home & Garden,2,94.93,189.86,0,0,189.86,credit_card,refunded,CA
+ORD-1353,2024-05-14,CUST-628,Electronics,5,353.0,1765.0,59.09,0,1705.91,credit_card,completed,US
+ORD-1354,2024-05-15,CUST-108,Home & Garden,3,78.91,236.73,0,0,236.73,paypal,completed,DE
+ORD-1355,2024-05-15,CUST-605,Sports,3,228.38,685.14,37.85,0,647.29,debit_card,pending,UK
+ORD-1356,2024-05-15,CUST-751,Clothing,1,140.87,140.87,11.44,0,129.43,credit_card,completed,US
+ORD-1357,2024-05-15,CUST-603,Books,3,11.85,35.55,0,6.85,42.4,credit_card,completed,DE
+ORD-1358,2024-05-16,CUST-817,Electronics,2,453.78,907.56,0,0,907.56,paypal,completed,US
+ORD-1359,2024-05-17,CUST-706,Sports,2,200.23,400.46,0,0,400.46,credit_card,completed,US
+ORD-1360,2024-05-18,CUST-502,Home & Garden,3,173.16,519.48,0,0,519.48,paypal,completed,AU
+ORD-1361,2024-05-18,CUST-259,Home & Garden,2,33.44,66.88,7.82,11.01,70.07,credit_card,completed,AU
+ORD-1362,2024-05-19,CUST-888,Home & Garden,4,41.73,166.92,0,0,166.92,debit_card,completed,DE
+ORD-1363,2024-05-19,CUST-411,Books,3,39.54,118.62,14.37,0,104.25,credit_card,completed,CA
+ORD-1364,2024-05-19,CUST-505,Clothing,1,111.01,111.01,0,0,111.01,credit_card,pending,DE
+ORD-1365,2024-05-19,CUST-866,Home & Garden,2,25.59,51.18,0,9.42,60.6,debit_card,completed,AU
+ORD-1366,2024-05-20,CUST-233,Clothing,1,16.61,16.61,0,15.78,32.39,debit_card,completed,CA
+ORD-1938,2024-05-20,CUST-384,Books,186,558.64,8216.69,0,0,16173.54,credit_card,completed,US
+ORD-1367,2024-05-21,CUST-122,Sports,5,96.18,480.9,0,0,480.9,credit_card,completed,AU
+ORD-1368,2024-05-22,CUST-151,Electronics,3,105.14,315.42,0,0,315.42,debit_card,refunded,FR
+ORD-1369,2024-05-22,CUST-319,Books,4,9.09,36.36,0,6.06,42.42,debit_card,completed,DE
+ORD-1370,2024-05-23,CUST-610,Clothing,1,97.9,97.9,0,11.76,109.66,bank_transfer,refunded,AU
+ORD-1371,2024-05-23,CUST-916,Electronics,1,175.9,175.9,5.26,0,170.64,debit_card,pending,US
+ORD-1372,2024-05-23,CUST-679,Books,3,25.75,77.25,0,8.12,85.37,paypal,completed,DE
+ORD-1373,2024-05-23,CUST-159,Clothing,1,58.05,58.05,7.8,13.33,63.58,bank_transfer,refunded,CA
+ORD-1374,2024-05-24,CUST-854,Clothing,1,48.46,48.46,3.88,13.48,58.06,credit_card,completed,FR
+ORD-1375,2024-05-24,CUST-925,Home & Garden,2,51.7,103.4,0,0,103.4,paypal,refunded,US
+ORD-1376,2024-05-25,CUST-956,Sports,5,64.08,320.4,0,0,320.4,bank_transfer,refunded,DE
+ORD-1377,2024-05-25,CUST-589,Clothing,4,20.13,80.52,7.27,4.23,77.48,credit_card,completed,UK
+ORD-1378,2024-05-25,CUST-964,Clothing,3,111.79,335.37,0,0,335.37,paypal,completed,US
+ORD-1379,2024-05-26,CUST-981,Sports,2,237.95,475.9,0,0,475.9,paypal,completed,CA
+ORD-1380,2024-05-26,CUST-261,Books,5,11.74,58.7,0,5.63,64.33,bank_transfer,pending,AU
+ORD-1381,2024-05-27,CUST-905,Clothing,5,108.63,543.15,0,0,543.15,paypal,completed,US
+ORD-1382,2024-05-27,CUST-101,Books,3,35.16,105.48,2.81,0,102.67,bank_transfer,refunded,US
+ORD-1383,2024-05-27,CUST-726,Clothing,5,57.96,289.8,0,0,289.8,debit_card,pending,US
+ORD-1384,2024-05-28,CUST-271,Clothing,3,115.62,346.86,51.11,0,295.75,credit_card,pending,CA
+ORD-1385,2024-05-28,CUST-210,Books,1,17.81,17.81,0.18,7.07,24.7,credit_card,completed,FR
+ORD-1386,2024-05-28,CUST-604,Books,4,43.86,175.44,0,0,175.44,bank_transfer,completed,FR
+ORD-1387,2024-05-28,CUST-876,Electronics,4,404.93,1619.72,0,0,1619.72,debit_card,completed,AU
+ORD-1388,2024-05-29,CUST-450,Electronics,3,59.04,177.12,2.78,0,174.34,debit_card,completed,US
+ORD-1389,2024-05-30,CUST-594,Sports,1,117.94,117.94,0,0,117.94,credit_card,completed,US
+ORD-1390,2024-05-31,CUST-839,Clothing,1,28.67,28.67,0.82,12.36,40.21,paypal,pending,DE
+ORD-1391,2024-05-31,CUST-602,Home & Garden,2,37.26,74.52,0,10.59,85.11,debit_card,completed,CA
+ORD-1392,2024-05-31,CUST-740,Electronics,4,89.43,357.72,0,0,357.72,bank_transfer,completed,US
+ORD-1393,2024-05-31,CUST-964,Electronics,2,126.87,253.74,3.12,0,250.62,credit_card,completed,FR
+ORD-1394,2024-06-01,CUST-490,Books,3,11.37,34.11,0,6.21,40.32,paypal,completed,AU
+ORD-1395,2024-06-01,CUST-677,Electronics,3,247.88,743.64,93.37,0,650.27,credit_card,completed,US
+ORD-1396,2024-06-01,CUST-874,Electronics,3,413.68,1241.04,0,0,1241.04,debit_card,refunded,US
+ORD-1397,2024-06-01,CUST-987,Books,5,23.49,117.45,0,0,117.45,bank_transfer,refunded,UK
+ORD-1398,2024-06-02,CUST-684,Home & Garden,1,91.06,91.06,0,4.41,95.47,debit_card,completed,AU
+ORD-1399,2024-06-02,CUST-229,Clothing,2,146.24,292.48,0,0,292.48,credit_card,completed,US
+ORD-1400,2024-06-02,CUST-364,Books,2,44.9,89.8,0,14.0,103.8,paypal,pending,US
+ORD-1401,2024-06-02,CUST-977,Electronics,4,300.36,1201.44,0,0,1201.44,paypal,refunded,AU
+ORD-1402,2024-06-03,CUST-524,Sports,5,168.7,843.5,0,0,843.5,debit_card,completed,US
+ORD-1403,2024-06-04,CUST-452,Sports,1,241.08,241.08,0,0,241.08,bank_transfer,completed,FR
+ORD-1404,2024-06-05,CUST-733,Sports,5,155.09,775.45,46.87,0,728.58,bank_transfer,completed,FR
+ORD-1405,2024-06-05,CUST-481,Home & Garden,2,28.87,57.74,0,7.21,64.95,credit_card,completed,DE
+ORD-1406,2024-06-05,CUST-801,Home & Garden,3,171.71,515.13,0,0,515.13,credit_card,completed,US
+ORD-1407,2024-06-05,CUST-846,Home & Garden,4,159.33,637.32,0,0,637.32,bank_transfer,refunded,US
+ORD-1408,2024-06-06,CUST-628,Books,2,41.8,83.6,0,9.8,93.4,paypal,completed,US
+ORD-1409,2024-06-06,CUST-899,Electronics,3,369.31,1107.93,0,0,1107.93,credit_card,completed,UK
+ORD-1410,2024-06-07,CUST-303,Electronics,2,64.88,129.76,7.01,0,122.75,paypal,completed,AU
+ORD-1411,2024-06-07,CUST-481,Sports,4,199.74,798.96,3.66,0,795.3,bank_transfer,refunded,AU
+ORD-1412,2024-06-08,CUST-957,Books,5,28.4,142.0,0,0,142.0,paypal,pending,US
+ORD-1413,2024-06-08,CUST-977,Home & Garden,1,89.58,89.58,7.69,15.57,97.46,debit_card,pending,UK
+ORD-1414,2024-06-09,CUST-885,Home & Garden,4,112.39,449.56,0,0,449.56,credit_card,completed,US
+ORD-1415,2024-06-09,CUST-412,Clothing,5,123.12,615.6,56.17,0,559.43,paypal,completed,FR
+ORD-1416,2024-06-10,CUST-738,Books,3,16.07,48.21,0,10.24,58.45,bank_transfer,refunded,US
+ORD-1417,2024-06-10,CUST-959,Electronics,5,499.74,2498.7,0,0,2498.7,paypal,refunded,DE
+ORD-1418,2024-06-10,CUST-383,Home & Garden,1,106.71,106.71,0,0,106.71,paypal,completed,DE
+ORD-1419,2024-06-11,CUST-977,Clothing,2,84.83,169.66,1.44,0,168.22,bank_transfer,pending,CA
+ORD-1420,2024-06-11,CUST-365,Clothing,1,103.48,103.48,0,0,103.48,bank_transfer,completed,FR
+ORD-1421,2024-06-11,CUST-294,Electronics,5,368.63,1843.15,0,0,1843.15,paypal,pending,UK
+ORD-1422,2024-06-12,CUST-671,Home & Garden,5,74.04,370.2,36.52,0,333.68,debit_card,completed,US
+ORD-1423,2024-06-12,CUST-287,Books,2,35.41,70.82,0,10.7,81.52,paypal,pending,US
+ORD-1424,2024-06-12,CUST-530,Clothing,3,45.15,135.45,0,0,135.45,paypal,completed,DE
+ORD-1425,2024-06-12,CUST-749,Sports,3,152.53,457.59,3.68,0,453.91,credit_card,completed,UK
+ORD-1426,2024-06-13,CUST-305,Books,5,19.04,95.2,12.2,5.64,88.64,paypal,completed,AU
+ORD-1427,2024-06-14,CUST-746,Home & Garden,2,160.21,320.42,0,0,320.42,debit_card,completed,US
+ORD-1428,2024-06-14,CUST-272,Electronics,4,173.09,692.36,0,0,692.36,debit_card,completed,US
+ORD-1429,2024-06-15,CUST-588,Sports,4,199.21,796.84,0,0,796.84,bank_transfer,completed,US
+ORD-1430,2024-06-15,CUST-429,Sports,2,225.93,451.86,0,0,451.86,debit_card,completed,US
+ORD-1431,2024-06-16,CUST-413,Clothing,3,57.13,171.39,12.94,0,158.45,debit_card,completed,US
+ORD-1432,2024-06-16,CUST-636,Home & Garden,3,102.07,306.21,0,0,306.21,paypal,completed,US
+ORD-1433,2024-06-17,CUST-119,Books,3,35.75,107.25,14.59,13.73,106.39,debit_card,completed,US
+ORD-1434,2024-06-17,CUST-138,Clothing,1,94.61,94.61,5.2,11.8,101.21,bank_transfer,pending,DE
+ORD-1435,2024-06-17,CUST-777,Sports,5,38.36,191.8,0,0,191.8,credit_card,pending,US
+ORD-1436,2024-06-18,CUST-818,Electronics,4,249.94,999.76,37.9,0,961.86,debit_card,completed,US
+ORD-1437,2024-06-19,CUST-950,Books,1,32.51,32.51,2.95,5.64,35.2,credit_card,refunded,US
+ORD-1438,2024-06-19,CUST-723,Home & Garden,1,161.26,161.26,0,0,161.26,debit_card,completed,UK
+ORD-1439,2024-06-19,CUST-312,Home & Garden,4,73.16,292.64,21.79,0,270.85,bank_transfer,completed,UK
+ORD-1440,2024-06-20,CUST-785,Electronics,1,458.1,458.1,0,0,458.1,bank_transfer,completed,US
+ORD-1441,2024-06-21,CUST-403,Electronics,3,339.95,1019.85,0,0,1019.85,paypal,completed,US
+ORD-1442,2024-06-22,CUST-793,Clothing,1,130.05,130.05,0,0,130.05,paypal,completed,US
+ORD-1944,2024-06-22,CUST-230,Electronics,1,0.46,0.23,0,0,0.16,credit_card,completed,US
+ORD-1443,2024-06-23,CUST-274,Electronics,1,433.4,433.4,0,0,433.4,paypal,completed,AU
+ORD-1444,2024-06-24,CUST-567,Electronics,3,416.73,1250.19,75.16,0,1175.03,paypal,completed,AU
+ORD-1445,2024-06-24,CUST-964,Books,2,12.18,24.36,0,4.69,29.05,debit_card,completed,FR
+ORD-1446,2024-06-24,CUST-285,Sports,4,245.62,982.48,0,0,982.48,bank_transfer,completed,US
+ORD-1447,2024-06-25,CUST-367,Books,4,12.18,48.72,0,4.54,53.26,paypal,completed,UK
+ORD-1448,2024-06-25,CUST-197,Home & Garden,5,114.16,570.8,0,0,570.8,bank_transfer,pending,UK
+ORD-1449,2024-06-26,CUST-727,Home & Garden,4,46.76,187.04,0,0,187.04,credit_card,completed,US
+ORD-1450,2024-06-26,CUST-176,Sports,4,259.26,1037.04,0,0,1037.04,bank_transfer,completed,UK
+ORD-1451,2024-06-26,CUST-340,Home & Garden,3,29.06,87.18,8.41,8.83,87.6,credit_card,completed,AU
+ORD-1452,2024-06-26,CUST-423,Sports,4,49.21,196.84,0,0,196.84,credit_card,completed,US
+ORD-1453,2024-06-27,CUST-910,Books,4,9.33,37.32,0,13.9,51.22,paypal,refunded,UK
+ORD-1454,2024-06-28,CUST-964,Home & Garden,3,168.56,505.68,0,0,505.68,bank_transfer,completed,AU
+ORD-1455,2024-06-28,CUST-327,Home & Garden,4,40.52,162.08,0,0,162.08,credit_card,completed,CA
+ORD-1456,2024-06-28,CUST-146,Home & Garden,5,113.96,569.8,0,0,569.8,debit_card,completed,US
+ORD-1457,2024-06-28,CUST-320,Books,1,17.41,17.41,0.32,14.22,31.31,bank_transfer,completed,CA
+ORD-1458,2024-06-29,CUST-890,Books,1,42.29,42.29,0,11.06,53.35,bank_transfer,completed,US
+ORD-1459,2024-06-30,CUST-543,Electronics,5,381.3,1906.5,0,0,1906.5,bank_transfer,refunded,US
+ORD-1460,2024-06-30,CUST-714,Sports,2,225.89,451.78,26.25,0,425.53,paypal,refunded,FR
+ORD-1461,2024-06-30,CUST-380,Books,5,41.89,209.45,0,0,209.45,bank_transfer,completed,DE
+ORD-1462,2024-06-30,CUST-624,Books,2,13.11,26.22,0,14.63,40.85,paypal,pending,CA
+ORD-1463,2024-07-01,CUST-788,Clothing,2,99.26,198.52,10.28,0,188.24,debit_card,pending,US
+ORD-1464,2024-07-01,CUST-218,Sports,5,215.94,1079.7,0,0,1079.7,paypal,refunded,AU
+ORD-1465,2024-07-02,CUST-113,Sports,3,266.31,798.93,0,0,798.93,credit_card,completed,FR
+ORD-1466,2024-07-02,CUST-393,Clothing,1,105.48,105.48,11.87,5.92,99.53,paypal,completed,US
+ORD-1467,2024-07-02,CUST-204,Home & Garden,2,155.65,311.3,38.01,0,273.29,debit_card,pending,FR
+ORD-1468,2024-07-02,CUST-394,Clothing,5,120.88,604.4,0,0,604.4,credit_card,completed,FR
+ORD-1469,2024-07-03,CUST-307,Home & Garden,5,29.68,148.4,0,0,148.4,bank_transfer,completed,CA
+ORD-1470,2024-07-03,CUST-298,Sports,5,228.07,1140.35,124.0,0,1016.35,paypal,completed,US
+ORD-1471,2024-07-03,CUST-222,Electronics,2,483.11,966.22,0,0,966.22,bank_transfer,completed,FR
+ORD-1472,2024-07-03,CUST-105,Home & Garden,5,67.56,337.8,42.87,0,294.93,paypal,completed,US
+ORD-1473,2024-07-04,CUST-740,Clothing,3,95.58,286.74,0,0,286.74,paypal,completed,CA
+ORD-1939,2024-07-04,CUST-855,Clothing,158,965.26,46513.8,0,0,16268.83,paypal,completed,DE
+ORD-1474,2024-07-05,CUST-617,Home & Garden,5,59.59,297.95,3.05,0,294.9,debit_card,completed,FR
+ORD-1475,2024-07-06,CUST-439,Home & Garden,2,179.01,358.02,0,0,358.02,paypal,completed,UK
+ORD-1476,2024-07-07,CUST-757,Sports,1,56.55,56.55,0,6.87,63.42,debit_card,completed,CA
+ORD-1477,2024-07-07,CUST-629,Books,1,22.28,22.28,0,7.38,29.66,paypal,refunded,AU
+ORD-1478,2024-07-07,CUST-184,Books,1,18.97,18.97,0,7.83,26.8,credit_card,completed,US
+ORD-1479,2024-07-07,CUST-985,Electronics,2,351.65,703.3,0,0,703.3,bank_transfer,completed,UK
+ORD-1480,2024-07-08,CUST-138,Electronics,2,60.69,121.38,0,0,121.38,credit_card,completed,US
+ORD-1481,2024-07-08,CUST-333,Clothing,3,90.34,271.02,0,0,271.02,paypal,completed,FR
+ORD-1482,2024-07-08,CUST-756,Books,4,24.02,96.08,9.7,10.41,96.79,credit_card,pending,US
+ORD-1483,2024-07-08,CUST-408,Electronics,3,467.62,1402.86,165.58,0,1237.28,credit_card,completed,AU
+ORD-1484,2024-07-09,CUST-500,Books,1,25.54,25.54,0,5.63,31.17,paypal,pending,US
+ORD-1485,2024-07-09,CUST-244,Home & Garden,3,192.33,576.99,75.71,0,501.28,credit_card,completed,US
+ORD-1486,2024-07-09,CUST-187,Sports,5,133.37,666.85,0,0,666.85,paypal,completed,CA
+ORD-1487,2024-07-09,CUST-245,Clothing,4,137.26,549.04,0,0,549.04,debit_card,completed,UK
+ORD-1488,2024-07-10,CUST-971,Clothing,1,39.48,39.48,0,14.22,53.7,bank_transfer,pending,US
+ORD-1489,2024-07-10,CUST-465,Home & Garden,1,65.12,65.12,5.67,15.41,74.86,debit_card,pending,UK
+ORD-1490,2024-07-10,CUST-425,Electronics,3,328.78,986.34,0,0,986.34,bank_transfer,completed,CA
+ORD-1491,2024-07-11,CUST-423,Sports,2,180.53,361.06,0,0,361.06,bank_transfer,completed,US
+ORD-1492,2024-07-11,CUST-756,Home & Garden,2,161.42,322.84,0,0,322.84,bank_transfer,completed,CA
+ORD-1493,2024-07-11,CUST-467,Clothing,3,133.51,400.53,0,0,400.53,paypal,completed,US
+ORD-1494,2024-07-12,CUST-243,Sports,1,256.49,256.49,0,0,256.49,debit_card,completed,US
+ORD-1495,2024-07-12,CUST-932,Electronics,1,432.31,432.31,0,0,432.31,bank_transfer,refunded,UK
+ORD-1496,2024-07-13,CUST-583,Sports,3,174.45,523.35,0,0,523.35,debit_card,completed,FR
+ORD-1497,2024-07-14,CUST-192,Sports,3,61.82,185.46,0,0,185.46,bank_transfer,completed,US
+ORD-1498,2024-07-14,CUST-243,Clothing,5,107.36,536.8,0,0,536.8,bank_transfer,completed,US
+ORD-1499,2024-07-15,CUST-370,Books,3,9.5,28.5,0,6.77,35.27,paypal,completed,US
+ORD-1500,2024-07-15,CUST-580,Clothing,5,137.54,687.7,0,0,687.7,bank_transfer,completed,US
+ORD-1501,2024-07-16,CUST-692,Electronics,5,335.11,1675.55,186.47,0,1489.08,debit_card,completed,FR
+ORD-1502,2024-07-16,CUST-629,Home & Garden,5,137.6,688.0,0,0,688.0,paypal,completed,UK
+ORD-1503,2024-07-16,CUST-598,Sports,4,122.05,488.2,0,0,488.2,bank_transfer,refunded,US
+ORD-1504,2024-07-17,CUST-253,Books,2,16.51,33.02,0,7.36,40.38,debit_card,completed,CA
+ORD-1505,2024-07-17,CUST-438,Sports,1,206.81,206.81,0,0,206.81,credit_card,completed,AU
+ORD-1506,2024-07-18,CUST-122,Clothing,5,36.77,183.85,0,0,183.85,debit_card,completed,US
+ORD-1507,2024-07-18,CUST-140,Sports,5,69.31,346.55,0,0,346.55,debit_card,completed,US
+ORD-1508,2024-07-18,CUST-677,Home & Garden,2,113.0,226.0,0,0,226.0,credit_card,pending,DE
+ORD-1509,2024-07-18,CUST-988,Electronics,2,252.14,504.28,0,0,504.28,bank_transfer,completed,UK
+ORD-1510,2024-07-19,CUST-286,Sports,2,243.52,487.04,0,0,487.04,paypal,completed,CA
+ORD-1511,2024-07-19,CUST-211,Books,5,29.85,149.25,8.63,0,140.62,credit_card,completed,FR
+ORD-1512,2024-07-19,CUST-729,Clothing,5,28.0,140.0,0,0,140.0,credit_card,refunded,US
+ORD-1513,2024-07-19,CUST-652,Electronics,4,346.73,1386.92,0,0,1386.92,credit_card,pending,FR
+ORD-1514,2024-07-20,CUST-921,Home & Garden,1,145.58,145.58,0,0,145.58,bank_transfer,completed,CA
+ORD-1515,2024-07-20,CUST-338,Sports,5,51.87,259.35,18.56,0,240.79,credit_card,completed,FR
+ORD-1516,2024-07-20,CUST-635,Home & Garden,2,20.98,41.96,0,4.08,46.04,credit_card,refunded,US
+ORD-1517,2024-07-20,CUST-258,Books,2,33.45,66.9,0,8.34,75.24,bank_transfer,pending,DE
+ORD-1950,2024-07-20,CUST-766,Electronics,0,0,0,0,0,0,paypal,pending,US
+ORD-1518,2024-07-21,CUST-796,Sports,4,180.28,721.12,0,0,721.12,bank_transfer,completed,FR
+ORD-1519,2024-07-21,CUST-668,Sports,5,157.68,788.4,0,0,788.4,bank_transfer,completed,DE
+ORD-1520,2024-07-21,CUST-241,Sports,3,237.9,713.7,0,0,713.7,credit_card,pending,UK
+ORD-1521,2024-07-22,CUST-663,Clothing,1,43.95,43.95,0,8.05,52.0,credit_card,completed,FR
+ORD-1522,2024-07-22,CUST-714,Electronics,1,420.46,420.46,0,0,420.46,bank_transfer,completed,US
+ORD-1523,2024-07-22,CUST-841,Home & Garden,2,86.75,173.5,0,0,173.5,bank_transfer,completed,DE
+ORD-1524,2024-07-22,CUST-755,Sports,1,285.07,285.07,0,0,285.07,bank_transfer,completed,US
+ORD-1525,2024-07-23,CUST-622,Sports,3,78.56,235.68,0,0,235.68,debit_card,refunded,US
+ORD-1526,2024-07-23,CUST-382,Electronics,3,157.67,473.01,11.17,0,461.84,bank_transfer,completed,FR
+ORD-1527,2024-07-24,CUST-170,Sports,2,167.38,334.76,0,0,334.76,credit_card,refunded,DE
+ORD-1528,2024-07-24,CUST-383,Sports,5,120.73,603.65,0,0,603.65,debit_card,refunded,UK
+ORD-1529,2024-07-24,CUST-209,Books,4,29.27,117.08,7.15,0,109.93,credit_card,refunded,DE
+ORD-1530,2024-07-24,CUST-997,Home & Garden,1,164.53,164.53,0,0,164.53,paypal,pending,AU
+ORD-1531,2024-07-25,CUST-894,Sports,4,236.74,946.96,0,0,946.96,bank_transfer,pending,AU
+ORD-1532,2024-07-25,CUST-907,Sports,1,157.54,157.54,9.04,0,148.5,debit_card,pending,UK
+ORD-1533,2024-07-25,CUST-109,Home & Garden,4,191.98,767.92,0,0,767.92,paypal,completed,DE
+ORD-1534,2024-07-25,CUST-177,Electronics,4,353.16,1412.64,0,0,1412.64,debit_card,completed,CA
+ORD-1535,2024-07-26,CUST-799,Clothing,5,51.33,256.65,0,0,256.65,debit_card,completed,UK
+ORD-1536,2024-07-26,CUST-355,Clothing,2,132.82,265.64,8.08,0,257.56,paypal,completed,US
+ORD-1537,2024-07-26,CUST-728,Electronics,1,354.12,354.12,0,0,354.12,credit_card,refunded,US
+ORD-1538,2024-07-27,CUST-688,Home & Garden,5,76.78,383.9,0,0,383.9,paypal,completed,US
+ORD-1539,2024-07-27,CUST-231,Sports,3,134.42,403.26,0,0,403.26,credit_card,refunded,FR
+ORD-1540,2024-07-27,CUST-894,Books,5,9.2,46.0,0,14.31,60.31,debit_card,completed,US
+ORD-1541,2024-07-27,CUST-488,Sports,4,111.8,447.2,45.22,0,401.98,credit_card,completed,CA
+ORD-1542,2024-07-28,CUST-451,Clothing,5,50.48,252.4,36.29,0,216.11,paypal,completed,AU
+ORD-1543,2024-07-28,CUST-510,Books,2,23.51,47.02,0,8.37,55.39,paypal,completed,US
+ORD-1544,2024-07-28,CUST-933,Sports,2,294.3,588.6,0,0,588.6,credit_card,pending,DE
+ORD-1545,2024-07-29,CUST-856,Sports,4,260.48,1041.92,125.04,0,916.88,debit_card,completed,US
+ORD-1546,2024-07-29,CUST-969,Clothing,4,82.45,329.8,0,0,329.8,paypal,completed,DE
+ORD-1547,2024-07-30,CUST-320,Sports,5,38.12,190.6,4.67,0,185.93,paypal,completed,US
+ORD-1548,2024-07-30,CUST-929,Books,3,17.61,52.83,0,10.68,63.51,paypal,completed,US
+ORD-1549,2024-07-30,CUST-690,Books,1,20.99,20.99,0,11.26,32.25,debit_card,completed,CA
+ORD-1550,2024-07-31,CUST-180,Sports,4,238.05,952.2,0,0,952.2,bank_transfer,refunded,DE
+ORD-1551,2024-07-31,CUST-531,Books,2,40.13,80.26,0,15.13,95.39,bank_transfer,completed,US
+ORD-1552,2024-07-31,CUST-398,Clothing,3,45.81,137.43,0,0,137.43,paypal,refunded,FR
+ORD-1553,2024-08-01,CUST-561,Books,3,35.67,107.01,0,0,107.01,bank_transfer,completed,US
+ORD-1554,2024-08-01,CUST-861,Electronics,2,377.5,755.0,0,0,755.0,credit_card,completed,US
+ORD-1555,2024-08-01,CUST-155,Books,1,11.54,11.54,0,9.67,21.21,credit_card,completed,US
+ORD-1556,2024-08-02,CUST-499,Home & Garden,5,47.95,239.75,0,0,239.75,paypal,completed,UK
+ORD-1557,2024-08-03,CUST-779,Books,2,12.86,25.72,0,4.33,30.05,paypal,completed,AU
+ORD-1558,2024-08-03,CUST-238,Books,5,42.59,212.95,0,0,212.95,debit_card,refunded,AU
+ORD-1559,2024-08-03,CUST-417,Sports,4,168.95,675.8,0,0,675.8,paypal,completed,UK
+ORD-1560,2024-08-04,CUST-934,Books,3,21.53,64.59,2.94,3.99,65.64,debit_card,completed,DE
+ORD-1561,2024-08-05,CUST-873,Sports,1,214.14,214.14,0,0,214.14,bank_transfer,completed,US
+ORD-1562,2024-08-05,CUST-293,Books,3,30.09,90.27,0,10.57,100.84,bank_transfer,refunded,FR
+ORD-1563,2024-08-05,CUST-487,Books,2,14.04,28.08,0,8.67,36.75,debit_card,completed,US
+ORD-1564,2024-08-05,CUST-810,Books,2,27.11,54.22,0,11.35,65.57,paypal,completed,DE
+ORD-1565,2024-08-06,CUST-378,Clothing,1,39.62,39.62,3.79,11.4,47.23,bank_transfer,completed,CA
+ORD-1566,2024-08-06,CUST-290,Electronics,2,72.33,144.66,0,0,144.66,credit_card,completed,DE
+ORD-1567,2024-08-06,CUST-605,Clothing,4,113.16,452.64,10.23,0,442.41,debit_card,completed,FR
+ORD-1568,2024-08-06,CUST-910,Home & Garden,4,199.63,798.52,0,0,798.52,credit_card,completed,US
+ORD-1569,2024-08-07,CUST-296,Electronics,3,399.04,1197.12,84.42,0,1112.7,paypal,completed,US
+ORD-1570,2024-08-07,CUST-353,Electronics,2,223.16,446.32,0,0,446.32,credit_card,completed,AU
+ORD-1571,2024-08-08,CUST-419,Sports,2,155.03,310.06,0,0,310.06,paypal,completed,US
+ORD-1572,2024-08-09,CUST-984,Home & Garden,4,134.93,539.72,71.85,0,467.87,debit_card,completed,UK
+ORD-1573,2024-08-10,CUST-109,Home & Garden,1,50.12,50.12,0.9,13.46,62.68,credit_card,refunded,AU
+ORD-1574,2024-08-10,CUST-193,Sports,2,127.13,254.26,6.01,0,248.25,paypal,pending,US
+ORD-1575,2024-08-10,CUST-910,Electronics,3,340.06,1020.18,0,0,1020.18,credit_card,completed,AU
+ORD-1576,2024-08-10,CUST-874,Clothing,3,147.53,442.59,0,0,442.59,paypal,completed,UK
+ORD-1577,2024-08-11,CUST-823,Books,3,34.8,104.4,0.62,0,103.78,bank_transfer,refunded,DE
+ORD-1578,2024-08-12,CUST-849,Clothing,5,40.19,200.95,0,0,200.95,bank_transfer,completed,US
+ORD-1579,2024-08-12,CUST-475,Electronics,5,119.76,598.8,23.65,0,575.15,bank_transfer,completed,FR
+ORD-1580,2024-08-12,CUST-428,Clothing,1,98.66,98.66,0,11.43,110.09,credit_card,pending,FR
+ORD-1581,2024-08-12,CUST-257,Clothing,5,107.24,536.2,0,0,536.2,paypal,completed,FR
+ORD-1582,2024-08-13,CUST-232,Electronics,1,285.44,285.44,35.76,0,249.68,debit_card,completed,UK
+ORD-1583,2024-08-13,CUST-497,Electronics,4,136.23,544.92,52.46,0,492.46,bank_transfer,refunded,DE
+ORD-1584,2024-08-13,CUST-113,Electronics,3,149.33,447.99,0,0,447.99,debit_card,pending,AU
+ORD-1585,2024-08-14,CUST-941,Books,1,21.35,21.35,0,14.68,36.03,paypal,pending,US
+ORD-1586,2024-08-15,CUST-179,Sports,1,226.93,226.93,0,0,226.93,debit_card,refunded,US
+ORD-1587,2024-08-15,CUST-354,Electronics,2,289.25,578.5,45.66,0,532.84,debit_card,refunded,FR
+ORD-1588,2024-08-15,CUST-781,Electronics,5,211.08,1055.4,0,0,1055.4,bank_transfer,completed,US
+ORD-1948,2024-08-15,CUST-493,Electronics,1,-291.11,-307.35,0,0,-220.91,bank_transfer,refunded,US
+ORD-1589,2024-08-16,CUST-646,Sports,4,163.79,655.16,0,0,655.16,bank_transfer,completed,CA
+ORD-1590,2024-08-16,CUST-748,Sports,3,257.33,771.99,0,0,771.99,bank_transfer,pending,CA
+ORD-1591,2024-08-17,CUST-862,Sports,5,83.83,419.15,0,0,419.15,paypal,completed,AU
+ORD-1592,2024-08-17,CUST-238,Books,4,8.01,32.04,1.37,4.19,34.86,paypal,completed,DE
+ORD-1593,2024-08-18,CUST-382,Clothing,3,17.93,53.79,0,12.27,66.06,debit_card,completed,US
+ORD-1594,2024-08-18,CUST-362,Books,3,13.78,41.34,5.52,6.99,42.81,paypal,completed,FR
+ORD-1595,2024-08-19,CUST-806,Electronics,3,406.81,1220.43,151.16,0,1069.27,credit_card,refunded,DE
+ORD-1596,2024-08-19,CUST-889,Electronics,5,221.7,1108.5,0,0,1108.5,paypal,completed,FR
+ORD-1597,2024-08-20,CUST-111,Electronics,2,386.46,772.92,0,0,772.92,bank_transfer,completed,DE
+ORD-1598,2024-08-20,CUST-434,Sports,1,112.81,112.81,0,0,112.81,debit_card,completed,US
+ORD-1599,2024-08-20,CUST-192,Books,4,35.86,143.44,0,0,143.44,debit_card,completed,DE
+ORD-1600,2024-08-20,CUST-508,Books,2,12.89,25.78,2.21,4.58,28.15,paypal,completed,FR
+ORD-1601,2024-08-21,CUST-685,Clothing,2,79.92,159.84,9.48,0,150.36,debit_card,refunded,UK
+ORD-1602,2024-08-21,CUST-689,Clothing,1,50.94,50.94,0,12.21,63.15,credit_card,completed,FR
+ORD-1603,2024-08-21,CUST-124,Books,3,20.89,62.67,0,11.12,73.79,paypal,completed,CA
+ORD-1604,2024-08-21,CUST-937,Sports,4,196.38,785.52,0,0,785.52,debit_card,completed,CA
+ORD-1605,2024-08-22,CUST-251,Electronics,1,382.81,382.81,35.66,0,347.15,paypal,completed,CA
+ORD-1606,2024-08-22,CUST-650,Electronics,3,252.53,757.59,23.75,0,733.84,debit_card,completed,DE
+ORD-1607,2024-08-23,CUST-485,Sports,2,216.14,432.28,0,0,432.28,credit_card,completed,US
+ORD-1608,2024-08-23,CUST-377,Electronics,3,140.31,420.93,0,0,420.93,credit_card,completed,US
+ORD-1609,2024-08-23,CUST-775,Electronics,4,347.17,1388.68,0,0,1388.68,paypal,completed,US
+ORD-1610,2024-08-23,CUST-826,Home & Garden,4,61.61,246.44,0,0,246.44,credit_card,completed,AU
+ORD-1611,2024-08-24,CUST-829,Clothing,2,82.59,165.18,0,0,165.18,credit_card,completed,UK
+ORD-1612,2024-08-25,CUST-460,Home & Garden,4,90.81,363.24,18.89,0,344.35,paypal,pending,DE
+ORD-1613,2024-08-25,CUST-496,Clothing,5,52.24,261.2,10.1,0,251.1,credit_card,refunded,DE
+ORD-1614,2024-08-25,CUST-240,Clothing,2,61.14,122.28,0,0,122.28,credit_card,pending,FR
+ORD-1615,2024-08-26,CUST-719,Books,2,29.2,58.4,0,7.74,66.14,paypal,completed,US
+ORD-1616,2024-08-26,CUST-307,Clothing,2,93.44,186.88,0,0,186.88,debit_card,completed,US
+ORD-1617,2024-08-27,CUST-670,Clothing,5,138.81,694.05,0,0,694.05,credit_card,completed,CA
+ORD-1618,2024-08-27,CUST-523,Clothing,1,118.33,118.33,0,0,118.33,bank_transfer,completed,AU
+ORD-1619,2024-08-27,CUST-880,Home & Garden,2,160.24,320.48,8.88,0,311.6,paypal,refunded,UK
+ORD-1620,2024-08-27,CUST-898,Sports,2,88.5,177.0,2.11,0,174.89,bank_transfer,completed,AU
+ORD-1621,2024-08-28,CUST-133,Clothing,4,81.35,325.4,9.43,0,315.97,bank_transfer,completed,DE
+ORD-1622,2024-08-28,CUST-167,Books,2,35.47,70.94,0,13.08,84.02,debit_card,completed,AU
+ORD-1623,2024-08-28,CUST-894,Home & Garden,4,179.77,719.08,0,0,719.08,credit_card,refunded,FR
+ORD-1624,2024-08-29,CUST-649,Books,5,42.75,213.75,0,0,213.75,credit_card,refunded,US
+ORD-1625,2024-08-29,CUST-631,Books,4,38.6,154.4,23.06,0,131.34,bank_transfer,pending,US
+ORD-1626,2024-08-29,CUST-150,Sports,4,166.93,667.72,0,0,667.72,debit_card,completed,AU
+ORD-1627,2024-08-30,CUST-727,Home & Garden,3,103.04,309.12,0,0,309.12,credit_card,pending,US
+ORD-1628,2024-08-30,CUST-699,Books,4,11.35,45.4,0,6.15,51.55,debit_card,completed,FR
+ORD-1629,2024-08-30,CUST-306,Home & Garden,4,24.48,97.92,0,14.75,112.67,bank_transfer,completed,DE
+ORD-1630,2024-08-30,CUST-560,Home & Garden,2,149.31,298.62,5.11,0,293.51,paypal,completed,FR
+ORD-1945,2024-08-30,CUST-741,Books,1,0.04,0.34,0,0,0.28,credit_card,completed,US
+ORD-1631,2024-08-31,CUST-443,Books,5,22.08,110.4,0,0,110.4,debit_card,completed,US
+ORD-1632,2024-08-31,CUST-556,Clothing,1,71.64,71.64,0,13.21,84.85,paypal,pending,US
+ORD-1633,2024-09-01,CUST-609,Clothing,2,15.48,30.96,0,4.14,35.1,bank_transfer,refunded,US
+ORD-1634,2024-09-02,CUST-519,Clothing,2,94.5,189.0,0,0,189.0,bank_transfer,completed,US
+ORD-1635,2024-09-02,CUST-939,Clothing,5,52.55,262.75,0,0,262.75,debit_card,completed,US
+ORD-1636,2024-09-02,CUST-958,Clothing,1,103.19,103.19,13.22,11.99,101.96,paypal,completed,US
+ORD-1637,2024-09-02,CUST-725,Electronics,1,237.63,237.63,23.96,0,213.67,debit_card,completed,CA
+ORD-1638,2024-09-03,CUST-939,Electronics,3,195.27,585.81,0,0,585.81,credit_card,completed,US
+ORD-1639,2024-09-04,CUST-523,Books,2,12.51,25.02,0,7.94,32.96,debit_card,pending,UK
+ORD-1640,2024-09-04,CUST-189,Sports,1,55.06,55.06,0,11.54,66.6,bank_transfer,pending,DE
+ORD-1641,2024-09-04,CUST-738,Books,5,39.37,196.85,16.98,0,179.87,paypal,completed,AU
+ORD-1642,2024-09-05,CUST-221,Books,2,40.7,81.4,3.55,6.31,84.16,credit_card,completed,US
+ORD-1643,2024-09-05,CUST-441,Clothing,5,149.86,749.3,0,0,749.3,paypal,refunded,UK
+ORD-1644,2024-09-05,CUST-407,Electronics,2,360.51,721.02,7.34,0,713.68,paypal,completed,US
+ORD-1645,2024-09-05,CUST-129,Home & Garden,3,91.29,273.87,0,0,273.87,debit_card,completed,CA
+ORD-1646,2024-09-06,CUST-593,Books,4,37.5,150.0,0,0,150.0,debit_card,pending,AU
+ORD-1647,2024-09-06,CUST-860,Sports,3,152.18,456.54,0,0,456.54,credit_card,refunded,DE
+ORD-1648,2024-09-06,CUST-439,Sports,3,177.67,533.01,46.16,0,486.85,paypal,completed,US
+ORD-1649,2024-09-07,CUST-962,Electronics,3,492.63,1477.89,0,0,1477.89,debit_card,refunded,FR
+ORD-1650,2024-09-07,CUST-415,Clothing,5,30.77,153.85,0,0,153.85,paypal,pending,US
+ORD-1651,2024-09-07,CUST-480,Home & Garden,4,35.62,142.48,0,0,142.48,bank_transfer,completed,UK
+ORD-1652,2024-09-08,CUST-618,Clothing,1,65.52,65.52,1.99,5.1,68.63,credit_card,completed,US
+ORD-1653,2024-09-08,CUST-636,Clothing,3,139.69,419.07,0,0,419.07,paypal,completed,US
+ORD-1654,2024-09-08,CUST-570,Electronics,5,354.52,1772.6,192.66,0,1579.94,bank_transfer,pending,US
+ORD-1655,2024-09-09,CUST-189,Home & Garden,1,143.67,143.67,0,0,143.67,paypal,completed,US
+ORD-1656,2024-09-10,CUST-314,Sports,3,31.18,93.54,0,11.66,105.2,paypal,completed,UK
+ORD-1657,2024-09-11,CUST-220,Home & Garden,5,77.45,387.25,0,0,387.25,paypal,completed,US
+ORD-1658,2024-09-11,CUST-311,Home & Garden,1,22.75,22.75,0,10.16,32.91,paypal,refunded,CA
+ORD-1659,2024-09-11,CUST-687,Home & Garden,2,189.79,379.58,0,0,379.58,debit_card,completed,US
+ORD-1660,2024-09-12,CUST-791,Sports,3,173.66,520.98,2.27,0,518.71,credit_card,completed,FR
+ORD-1661,2024-09-12,CUST-706,Electronics,1,241.91,241.91,21.63,0,220.28,bank_transfer,refunded,CA
+ORD-1662,2024-09-12,CUST-786,Home & Garden,3,167.14,501.42,0,0,501.42,credit_card,completed,US
+ORD-1663,2024-09-13,CUST-576,Books,1,24.86,24.86,0,12.51,37.37,bank_transfer,completed,UK
+ORD-1664,2024-09-14,CUST-816,Sports,3,276.04,828.12,0,0,828.12,paypal,completed,AU
+ORD-1665,2024-09-14,CUST-389,Books,1,10.42,10.42,0.75,14.14,23.81,paypal,refunded,US
+ORD-1666,2024-09-15,CUST-645,Books,1,20.06,20.06,0,13.5,33.56,bank_transfer,completed,FR
+ORD-1940,2024-09-15,CUST-164,Electronics,57,583.49,41938.48,0,0,32886.29,paypal,completed,DE
+ORD-1667,2024-09-16,CUST-493,Sports,2,175.69,351.38,0,0,351.38,credit_card,completed,UK
+ORD-1668,2024-09-16,CUST-906,Sports,4,240.69,962.76,0,0,962.76,paypal,refunded,UK
+ORD-1669,2024-09-17,CUST-433,Electronics,5,426.54,2132.7,190.69,0,1942.01,credit_card,completed,US
+ORD-1670,2024-09-17,CUST-889,Home & Garden,4,32.53,130.12,15.89,0,114.23,bank_transfer,completed,AU
+ORD-1671,2024-09-18,CUST-873,Electronics,2,417.67,835.34,0,0,835.34,credit_card,completed,US
+ORD-1672,2024-09-19,CUST-300,Sports,3,132.25,396.75,0,0,396.75,debit_card,pending,CA
+ORD-1673,2024-09-19,CUST-545,Home & Garden,5,162.98,814.9,0,0,814.9,paypal,completed,US
+ORD-1674,2024-09-19,CUST-478,Sports,5,136.15,680.75,30.04,0,650.71,credit_card,completed,CA
+ORD-1675,2024-09-19,CUST-503,Electronics,3,439.56,1318.68,138.9,0,1179.78,paypal,pending,FR
+ORD-1676,2024-09-20,CUST-586,Books,4,28.17,112.68,0,0,112.68,debit_card,completed,FR
+ORD-1677,2024-09-20,CUST-786,Home & Garden,4,47.77,191.08,0,0,191.08,debit_card,completed,US
+ORD-1678,2024-09-20,CUST-773,Electronics,1,114.8,114.8,0,0,114.8,bank_transfer,completed,US
+ORD-1679,2024-09-20,CUST-812,Clothing,4,131.12,524.48,0,0,524.48,bank_transfer,refunded,US
+ORD-1680,2024-09-21,CUST-463,Sports,4,176.81,707.24,0,0,707.24,debit_card,completed,FR
+ORD-1681,2024-09-21,CUST-342,Sports,1,183.93,183.93,0,0,183.93,paypal,completed,CA
+ORD-1682,2024-09-21,CUST-215,Electronics,1,305.67,305.67,0,0,305.67,bank_transfer,pending,US
+ORD-1683,2024-09-21,CUST-897,Clothing,5,147.78,738.9,0,0,738.9,paypal,completed,US
+ORD-1684,2024-09-22,CUST-784,Clothing,4,100.14,400.56,0,0,400.56,credit_card,pending,DE
+ORD-1685,2024-09-23,CUST-624,Home & Garden,5,160.13,800.65,0,0,800.65,bank_transfer,refunded,CA
+ORD-1686,2024-09-24,CUST-867,Home & Garden,3,72.06,216.18,29.93,0,186.25,paypal,pending,DE
+ORD-1687,2024-09-24,CUST-772,Electronics,4,310.16,1240.64,0,0,1240.64,paypal,pending,US
+ORD-1688,2024-09-24,CUST-971,Home & Garden,4,34.85,139.4,0,0,139.4,paypal,completed,US
+ORD-1689,2024-09-24,CUST-718,Sports,3,100.68,302.04,33.59,0,268.45,debit_card,refunded,US
+ORD-1690,2024-09-25,CUST-596,Home & Garden,2,67.03,134.06,0,0,134.06,debit_card,refunded,US
+ORD-1691,2024-09-25,CUST-941,Home & Garden,1,194.12,194.12,0,0,194.12,debit_card,completed,FR
+ORD-1692,2024-09-25,CUST-691,Books,2,32.44,64.88,0,6.0,70.88,paypal,completed,DE
+ORD-1693,2024-09-25,CUST-408,Electronics,1,125.42,125.42,0,0,125.42,bank_transfer,pending,UK
+ORD-1694,2024-09-26,CUST-395,Books,4,17.72,70.88,0,9.21,80.09,bank_transfer,completed,CA
+ORD-1695,2024-09-26,CUST-964,Sports,1,51.78,51.78,0,8.24,60.02,bank_transfer,refunded,DE
+ORD-1696,2024-09-26,CUST-500,Home & Garden,3,68.08,204.24,20.05,0,184.19,bank_transfer,pending,UK
+ORD-1697,2024-09-26,CUST-284,Sports,2,167.99,335.98,0,0,335.98,paypal,refunded,US
+ORD-1698,2024-09-27,CUST-801,Electronics,1,235.06,235.06,0,0,235.06,bank_transfer,completed,UK
+ORD-1699,2024-09-28,CUST-708,Home & Garden,2,26.13,52.26,0,4.67,56.93,debit_card,refunded,US
+ORD-1700,2024-09-28,CUST-763,Electronics,1,435.4,435.4,42.87,0,392.53,debit_card,completed,US
+ORD-1701,2024-09-28,CUST-754,Home & Garden,3,104.05,312.15,0,0,312.15,bank_transfer,completed,FR
+ORD-1702,2024-09-29,CUST-497,Home & Garden,2,160.53,321.06,3.0,0,318.06,paypal,completed,DE
+ORD-1703,2024-09-29,CUST-305,Home & Garden,2,99.3,198.6,0,0,198.6,bank_transfer,completed,AU
+ORD-1704,2024-09-29,CUST-728,Electronics,2,293.28,586.56,0,0,586.56,credit_card,completed,DE
+ORD-1705,2024-09-30,CUST-119,Electronics,1,81.69,81.69,0,13.32,95.01,bank_transfer,completed,US
+ORD-1953,2024-09-30,CUST-112,Clothing,2,30.4,60.8,91.2,0,-30.4,credit_card,completed,DE
+ORD-1706,2024-10-01,CUST-103,Books,3,13.61,40.83,0,8.69,49.52,bank_transfer,completed,FR
+ORD-1707,2024-10-02,CUST-805,Electronics,5,151.63,758.15,0,0,758.15,bank_transfer,completed,CA
+ORD-1708,2024-10-02,CUST-762,Home & Garden,3,92.11,276.33,0,0,276.33,credit_card,completed,CA
+ORD-1709,2024-10-02,CUST-667,Electronics,4,392.2,1568.8,47.8,0,1521.0,credit_card,completed,UK
+ORD-1710,2024-10-02,CUST-467,Home & Garden,4,181.36,725.44,0,0,725.44,bank_transfer,completed,AU
+ORD-1711,2024-10-03,CUST-600,Clothing,1,41.07,41.07,0,11.11,52.18,bank_transfer,completed,DE
+ORD-1712,2024-10-03,CUST-116,Books,5,43.7,218.5,0,0,218.5,credit_card,completed,US
+ORD-1713,2024-10-04,CUST-783,Electronics,4,103.18,412.72,0,0,412.72,bank_transfer,pending,US
+ORD-1714,2024-10-04,CUST-769,Sports,2,279.32,558.64,11.86,0,546.78,credit_card,completed,US
+ORD-1715,2024-10-04,CUST-940,Clothing,2,16.94,33.88,0,14.85,48.73,credit_card,completed,US
+ORD-1716,2024-10-05,CUST-325,Electronics,1,273.71,273.71,0,0,273.71,credit_card,completed,FR
+ORD-1946,2024-10-05,CUST-401,Books,1,0.21,0.31,0,0,0.21,credit_card,completed,US
+ORD-1717,2024-10-06,CUST-429,Books,3,12.47,37.41,0,10.54,47.95,debit_card,completed,US
+ORD-1718,2024-10-06,CUST-666,Home & Garden,1,41.73,41.73,2.6,12.35,51.48,debit_card,completed,UK
+ORD-1719,2024-10-06,CUST-485,Sports,1,61.68,61.68,0,11.58,73.26,debit_card,completed,AU
+ORD-1720,2024-10-07,CUST-390,Electronics,1,130.74,130.74,12.78,0,117.96,bank_transfer,pending,AU
+ORD-1721,2024-10-08,CUST-521,Clothing,2,101.38,202.76,0,0,202.76,debit_card,completed,US
+ORD-1722,2024-10-08,CUST-190,Sports,2,222.23,444.46,0,0,444.46,paypal,completed,FR
+ORD-1723,2024-10-09,CUST-197,Sports,2,77.77,155.54,0,0,155.54,paypal,refunded,UK
+ORD-1724,2024-10-10,CUST-585,Clothing,3,22.16,66.48,1.49,14.12,79.11,bank_transfer,completed,US
+ORD-1725,2024-10-10,CUST-442,Electronics,1,340.19,340.19,22.18,0,318.01,bank_transfer,completed,US
+ORD-1726,2024-10-10,CUST-596,Electronics,5,129.15,645.75,0,0,645.75,credit_card,completed,UK
+ORD-1727,2024-10-10,CUST-865,Books,5,29.45,147.25,0,0,147.25,paypal,completed,US
+ORD-1728,2024-10-11,CUST-325,Clothing,1,47.01,47.01,0,6.39,53.4,credit_card,completed,AU
+ORD-1729,2024-10-11,CUST-565,Electronics,4,115.22,460.88,0,0,460.88,debit_card,completed,CA
+ORD-1730,2024-10-11,CUST-376,Clothing,4,112.18,448.72,0,0,448.72,debit_card,completed,US
+ORD-1731,2024-10-12,CUST-878,Sports,1,102.17,102.17,7.13,9.01,104.05,paypal,completed,DE
+ORD-1732,2024-10-13,CUST-335,Sports,2,183.98,367.96,0,0,367.96,credit_card,completed,AU
+ORD-1733,2024-10-13,CUST-114,Clothing,5,78.92,394.6,0,0,394.6,bank_transfer,pending,UK
+ORD-1734,2024-10-14,CUST-705,Home & Garden,4,124.3,497.2,0,0,497.2,debit_card,refunded,US
+ORD-1735,2024-10-14,CUST-134,Books,1,9.48,9.48,0,13.21,22.69,bank_transfer,refunded,FR
+ORD-1736,2024-10-15,CUST-809,Electronics,4,272.88,1091.52,123.3,0,968.22,bank_transfer,completed,US
+ORD-1737,2024-10-15,CUST-116,Home & Garden,3,63.03,189.09,0,0,189.09,bank_transfer,pending,DE
+ORD-1738,2024-10-15,CUST-124,Clothing,4,130.82,523.28,0,0,523.28,bank_transfer,completed,US
+ORD-1739,2024-10-15,CUST-748,Books,2,37.22,74.44,0,9.56,84.0,credit_card,pending,US
+ORD-1740,2024-10-16,CUST-376,Home & Garden,5,25.89,129.45,0,0,129.45,debit_card,pending,US
+ORD-1741,2024-10-16,CUST-790,Sports,3,227.33,681.99,96.71,0,585.28,paypal,completed,US
+ORD-1742,2024-10-16,CUST-821,Books,3,25.22,75.66,4.16,11.77,83.27,credit_card,refunded,UK
+ORD-1743,2024-10-16,CUST-870,Clothing,3,47.22,141.66,10.17,0,131.49,debit_card,pending,UK
+ORD-1744,2024-10-17,CUST-155,Home & Garden,3,110.64,331.92,0,0,331.92,credit_card,completed,CA
+ORD-1745,2024-10-17,CUST-581,Books,4,26.55,106.2,0,0,106.2,paypal,completed,CA
+ORD-1746,2024-10-17,CUST-182,Electronics,2,451.36,902.72,0,0,902.72,bank_transfer,completed,DE
+ORD-1747,2024-10-18,CUST-608,Electronics,2,174.17,348.34,0,0,348.34,debit_card,completed,US
+ORD-1748,2024-10-19,CUST-530,Books,5,42.47,212.35,0,0,212.35,bank_transfer,pending,US
+ORD-1749,2024-10-19,CUST-632,Home & Garden,2,31.33,62.66,0,6.78,69.44,paypal,completed,CA
+ORD-1750,2024-10-19,CUST-962,Home & Garden,4,126.8,507.2,0,0,507.2,bank_transfer,completed,DE
+ORD-1751,2024-10-20,CUST-395,Home & Garden,2,162.07,324.14,18.08,0,306.06,credit_card,completed,CA
+ORD-1752,2024-10-20,CUST-264,Home & Garden,4,192.12,768.48,0,0,768.48,paypal,completed,US
+ORD-1753,2024-10-21,CUST-551,Clothing,2,30.78,61.56,0,10.88,72.44,paypal,completed,US
+ORD-1754,2024-10-21,CUST-452,Clothing,5,110.46,552.3,0,0,552.3,debit_card,completed,AU
+ORD-1755,2024-10-22,CUST-886,Sports,3,58.41,175.23,24.47,0,150.76,debit_card,completed,CA
+ORD-1756,2024-10-22,CUST-619,Clothing,1,145.97,145.97,0,0,145.97,paypal,pending,DE
+ORD-1757,2024-10-23,CUST-846,Home & Garden,5,140.04,700.2,0,0,700.2,bank_transfer,completed,US
+ORD-1758,2024-10-23,CUST-511,Books,1,13.16,13.16,0,7.69,20.85,debit_card,completed,CA
+ORD-1759,2024-10-23,CUST-697,Electronics,3,74.77,224.31,0,0,224.31,debit_card,completed,UK
+ORD-1760,2024-10-23,CUST-787,Electronics,1,292.29,292.29,0,0,292.29,credit_card,refunded,FR
+ORD-1761,2024-10-24,CUST-782,Books,3,30.32,90.96,0,4.66,95.62,paypal,completed,US
+ORD-1762,2024-10-24,CUST-556,Books,3,22.29,66.87,3.46,7.69,71.1,credit_card,completed,AU
+ORD-1763,2024-10-25,CUST-846,Books,3,14.06,42.18,0,14.76,56.94,bank_transfer,completed,US
+ORD-1764,2024-10-25,CUST-637,Clothing,2,55.94,111.88,0,0,111.88,paypal,completed,FR
+ORD-1765,2024-10-25,CUST-524,Electronics,1,234.26,234.26,0,0,234.26,debit_card,refunded,AU
+ORD-1766,2024-10-25,CUST-396,Sports,2,79.8,159.6,0,0,159.6,bank_transfer,completed,DE
+ORD-1767,2024-10-26,CUST-257,Books,5,35.37,176.85,20.99,0,155.86,paypal,completed,AU
+ORD-1768,2024-10-26,CUST-804,Electronics,3,237.72,713.16,0,0,713.16,debit_card,completed,US
+ORD-1769,2024-10-26,CUST-695,Home & Garden,4,198.98,795.92,89.01,0,706.91,bank_transfer,refunded,FR
+ORD-1770,2024-10-27,CUST-365,Books,1,21.81,21.81,0,4.2,26.01,debit_card,refunded,US
+ORD-1771,2024-10-27,CUST-465,Clothing,3,77.24,231.72,0,0,231.72,debit_card,completed,DE
+ORD-1772,2024-10-27,CUST-149,Home & Garden,4,134.52,538.08,0,0,538.08,paypal,completed,US
+ORD-1773,2024-10-28,CUST-965,Clothing,1,95.83,95.83,4.64,7.78,98.97,paypal,completed,CA
+ORD-1774,2024-10-28,CUST-113,Electronics,5,311.02,1555.1,0,0,1555.1,debit_card,refunded,DE
+ORD-1775,2024-10-29,CUST-258,Books,4,20.59,82.36,0,5.22,87.58,debit_card,completed,US
+ORD-1776,2024-10-29,CUST-117,Books,4,41.89,167.56,3.3,0,164.26,bank_transfer,completed,DE
+ORD-1777,2024-10-29,CUST-711,Home & Garden,2,167.07,334.14,0,0,334.14,paypal,completed,DE
+ORD-1778,2024-10-30,CUST-804,Electronics,2,107.92,215.84,0,0,215.84,debit_card,completed,US
+ORD-1779,2024-10-31,CUST-119,Clothing,1,72.35,72.35,0,5.33,77.68,bank_transfer,completed,US
+ORD-1780,2024-10-31,CUST-580,Clothing,1,19.43,19.43,0,11.11,30.54,credit_card,completed,US
+ORD-1781,2024-11-01,CUST-716,Home & Garden,1,155.82,155.82,0,0,155.82,debit_card,refunded,UK
+ORD-1782,2024-11-02,CUST-693,Home & Garden,1,36.34,36.34,0,15.29,51.63,paypal,completed,US
+ORD-1783,2024-11-02,CUST-201,Sports,5,91.5,457.5,0,0,457.5,credit_card,refunded,UK
+ORD-1784,2024-11-03,CUST-842,Home & Garden,2,182.3,364.6,0,0,364.6,credit_card,completed,AU
+ORD-1785,2024-11-03,CUST-209,Home & Garden,5,53.32,266.6,0,0,266.6,debit_card,completed,FR
+ORD-1786,2024-11-04,CUST-226,Clothing,5,45.72,228.6,33.76,0,194.84,bank_transfer,completed,US
+ORD-1787,2024-11-04,CUST-141,Books,3,34.08,102.24,0,0,102.24,credit_card,completed,AU
+ORD-1788,2024-11-04,CUST-419,Electronics,4,177.63,710.52,0,0,710.52,bank_transfer,completed,FR
+ORD-1789,2024-11-04,CUST-587,Home & Garden,4,53.98,215.92,27.24,0,188.68,paypal,completed,US
+ORD-1790,2024-11-05,CUST-187,Electronics,4,247.13,988.52,0,0,988.52,credit_card,completed,FR
+ORD-1791,2024-11-05,CUST-272,Books,5,44.17,220.85,0,0,220.85,credit_card,completed,UK
+ORD-1792,2024-11-05,CUST-225,Home & Garden,2,127.09,254.18,0,0,254.18,debit_card,completed,AU
+ORD-1793,2024-11-05,CUST-920,Home & Garden,5,126.86,634.3,0,0,634.3,bank_transfer,completed,AU
+ORD-1794,2024-11-06,CUST-356,Books,5,18.32,91.6,0,5.29,96.89,bank_transfer,completed,UK
+ORD-1795,2024-11-06,CUST-283,Clothing,1,28.45,28.45,0.29,12.13,40.29,bank_transfer,refunded,CA
+ORD-1796,2024-11-06,CUST-869,Clothing,3,98.97,296.91,3.41,0,293.5,bank_transfer,completed,UK
+ORD-1797,2024-11-06,CUST-980,Home & Garden,4,108.25,433.0,22.32,0,410.68,credit_card,completed,FR
+ORD-1798,2024-11-07,CUST-133,Books,4,19.64,78.56,0,9.51,88.07,debit_card,refunded,DE
+ORD-1799,2024-11-08,CUST-212,Books,4,12.98,51.92,0,9.84,61.76,bank_transfer,pending,AU
+ORD-1800,2024-11-08,CUST-500,Books,5,39.61,198.05,0,0,198.05,paypal,completed,FR
+ORD-1801,2024-11-09,CUST-475,Home & Garden,3,31.06,93.18,0,5.53,98.71,paypal,pending,US
+ORD-1802,2024-11-09,CUST-465,Home & Garden,4,37.52,150.08,0,0,150.08,bank_transfer,completed,US
+ORD-1803,2024-11-09,CUST-804,Clothing,2,46.67,93.34,0,5.01,98.35,credit_card,completed,US
+ORD-1804,2024-11-10,CUST-627,Clothing,1,87.69,87.69,8.65,9.06,88.1,bank_transfer,completed,US
+ORD-1805,2024-11-10,CUST-430,Books,5,8.82,44.1,0,10.83,54.93,credit_card,completed,US
+ORD-1806,2024-11-10,CUST-783,Clothing,3,82.06,246.18,0,0,246.18,paypal,completed,DE
+ORD-1807,2024-11-11,CUST-960,Books,2,26.39,52.78,0,13.44,66.22,debit_card,completed,DE
+ORD-1808,2024-11-11,CUST-331,Electronics,3,498.3,1494.9,0,0,1494.9,credit_card,pending,US
+ORD-1809,2024-11-11,CUST-643,Sports,3,100.18,300.54,0,0,300.54,bank_transfer,completed,UK
+ORD-1810,2024-11-12,CUST-420,Electronics,3,277.09,831.27,82.73,0,748.54,debit_card,completed,FR
+ORD-1811,2024-11-12,CUST-660,Home & Garden,5,112.77,563.85,0,0,563.85,debit_card,completed,US
+ORD-1812,2024-11-12,CUST-860,Sports,4,83.56,334.24,0,0,334.24,bank_transfer,completed,FR
+ORD-1813,2024-11-13,CUST-801,Sports,2,125.18,250.36,5.65,0,244.71,paypal,completed,FR
+ORD-1814,2024-11-14,CUST-264,Electronics,2,430.69,861.38,37.09,0,824.29,paypal,pending,UK
+ORD-1815,2024-11-14,CUST-575,Books,2,12.2,24.4,0.9,13.92,37.42,bank_transfer,refunded,FR
+ORD-1816,2024-11-14,CUST-384,Books,1,15.47,15.47,0.07,13.47,28.87,debit_card,pending,US
+ORD-1817,2024-11-15,CUST-987,Electronics,1,436.81,436.81,39.42,0,397.39,credit_card,completed,CA
+ORD-1818,2024-11-15,CUST-243,Electronics,4,474.42,1897.68,0,0,1897.68,debit_card,completed,US
+ORD-1819,2024-11-15,CUST-357,Sports,5,286.16,1430.8,0,0,1430.8,bank_transfer,completed,UK
+ORD-1820,2024-11-15,CUST-952,Sports,1,237.63,237.63,0,0,237.63,bank_transfer,pending,UK
+ORD-1821,2024-11-16,CUST-983,Clothing,2,29.42,58.84,2.42,8.89,65.31,credit_card,completed,CA
+ORD-1822,2024-11-16,CUST-352,Electronics,3,295.59,886.77,0,0,886.77,paypal,completed,CA
+ORD-1823,2024-11-16,CUST-961,Books,3,38.39,115.17,16.7,11.26,109.73,credit_card,pending,UK
+ORD-1824,2024-11-16,CUST-817,Home & Garden,5,89.24,446.2,0,0,446.2,paypal,pending,US
+ORD-1825,2024-11-17,CUST-361,Books,4,8.29,33.16,0,15.12,48.28,paypal,completed,UK
+ORD-1826,2024-11-17,CUST-424,Home & Garden,2,174.7,349.4,23.0,0,326.4,bank_transfer,completed,DE
+ORD-1827,2024-11-18,CUST-440,Books,4,35.27,141.08,0,0,141.08,bank_transfer,completed,US
+ORD-1828,2024-11-19,CUST-932,Sports,1,121.76,121.76,0,0,121.76,paypal,completed,US
+ORD-1829,2024-11-19,CUST-239,Electronics,2,333.57,667.14,0,0,667.14,credit_card,completed,UK
+ORD-1830,2024-11-19,CUST-830,Home & Garden,3,123.65,370.95,13.89,0,357.06,debit_card,refunded,FR
+ORD-1831,2024-11-20,CUST-707,Books,4,40.32,161.28,4.2,0,157.08,paypal,completed,UK
+ORD-1832,2024-11-20,CUST-486,Electronics,4,215.42,861.68,0,0,861.68,debit_card,completed,US
+ORD-1833,2024-11-20,CUST-573,Sports,5,197.32,986.6,0,0,986.6,debit_card,completed,US
+ORD-1834,2024-11-21,CUST-476,Books,5,23.87,119.35,1.59,0,117.76,debit_card,refunded,US
+ORD-1835,2024-11-22,CUST-947,Sports,4,237.67,950.68,0,0,950.68,bank_transfer,completed,UK
+ORD-1836,2024-11-23,CUST-233,Clothing,3,53.87,161.61,0,0,161.61,bank_transfer,completed,UK
+ORD-1837,2024-11-23,CUST-249,Home & Garden,2,95.3,190.6,0,0,190.6,credit_card,completed,DE
+ORD-1838,2024-11-24,CUST-800,Sports,4,274.52,1098.08,0,0,1098.08,bank_transfer,completed,US
+ORD-1839,2024-11-24,CUST-317,Books,2,40.24,80.48,0,8.76,89.24,bank_transfer,pending,FR
+ORD-1840,2024-11-25,CUST-582,Electronics,1,300.65,300.65,41.99,0,258.66,paypal,refunded,US
+ORD-1841,2024-11-25,CUST-504,Electronics,3,277.04,831.12,0,0,831.12,paypal,completed,US
+ORD-1842,2024-11-25,CUST-447,Sports,2,96.58,193.16,0,0,193.16,bank_transfer,completed,US
+ORD-1941,2024-11-25,CUST-353,Electronics,171,390.45,22313.68,0,0,10286.18,paypal,completed,UK
+ORD-1843,2024-11-26,CUST-230,Sports,4,63.99,255.96,1.7,0,254.26,bank_transfer,completed,CA
+ORD-1844,2024-11-26,CUST-370,Books,3,41.4,124.2,15.46,0,108.74,paypal,completed,US
+ORD-1845,2024-11-26,CUST-773,Home & Garden,4,157.46,629.84,80.59,0,549.25,bank_transfer,completed,UK
+ORD-1846,2024-11-27,CUST-267,Electronics,2,132.41,264.82,0,0,264.82,bank_transfer,completed,US
+ORD-1847,2024-11-27,CUST-568,Books,1,24.34,24.34,0,10.72,35.06,bank_transfer,completed,US
+ORD-1848,2024-11-28,CUST-942,Home & Garden,1,56.67,56.67,7.1,12.99,62.56,paypal,refunded,UK
+ORD-1849,2024-11-29,CUST-352,Sports,5,74.66,373.3,0,0,373.3,bank_transfer,pending,US
+ORD-1850,2024-11-30,CUST-503,Electronics,3,356.59,1069.77,0,0,1069.77,paypal,refunded,US
+ORD-1851,2024-11-30,CUST-591,Home & Garden,2,25.2,50.4,0,12.48,62.88,bank_transfer,pending,DE
+ORD-1852,2024-11-30,CUST-563,Sports,1,115.59,115.59,10.79,0,104.8,paypal,pending,US
+ORD-1853,2024-12-01,CUST-716,Electronics,3,195.43,586.29,6.22,0,580.07,bank_transfer,completed,FR
+ORD-1854,2024-12-01,CUST-508,Home & Garden,2,63.21,126.42,0,0,126.42,credit_card,completed,UK
+ORD-1942,2024-12-01,CUST-174,Sports,162,810.51,34264.65,0,0,32315.25,credit_card,completed,US
+ORD-1855,2024-12-02,CUST-223,Books,4,18.54,74.16,0,11.84,86.0,paypal,completed,FR
+ORD-1856,2024-12-02,CUST-952,Home & Garden,5,43.63,218.15,0,0,218.15,paypal,refunded,UK
+ORD-1857,2024-12-03,CUST-533,Books,4,25.63,102.52,0,0,102.52,credit_card,completed,CA
+ORD-1858,2024-12-03,CUST-141,Sports,2,144.38,288.76,0,0,288.76,paypal,completed,UK
+ORD-1859,2024-12-03,CUST-185,Clothing,4,86.18,344.72,0,0,344.72,paypal,completed,FR
+ORD-1860,2024-12-03,CUST-800,Electronics,4,185.18,740.72,0,0,740.72,paypal,completed,FR
+ORD-1861,2024-12-04,CUST-625,Sports,1,176.52,176.52,0,0,176.52,credit_card,refunded,FR
+ORD-1862,2024-12-04,CUST-463,Books,1,25.19,25.19,0,13.74,38.93,paypal,refunded,US
+ORD-1863,2024-12-04,CUST-286,Sports,1,56.33,56.33,0,6.14,62.47,bank_transfer,completed,US
+ORD-1864,2024-12-05,CUST-786,Home & Garden,3,125.7,377.1,0,0,377.1,bank_transfer,refunded,DE
+ORD-1865,2024-12-05,CUST-789,Home & Garden,2,57.99,115.98,17.09,7.1,105.99,credit_card,completed,US
+ORD-1866,2024-12-05,CUST-808,Electronics,4,102.51,410.04,29.35,0,380.69,bank_transfer,pending,AU
+ORD-1867,2024-12-05,CUST-807,Home & Garden,5,166.36,831.8,0,0,831.8,bank_transfer,completed,US
+ORD-1868,2024-12-06,CUST-292,Clothing,1,40.76,40.76,0,12.34,53.1,credit_card,completed,AU
+ORD-1869,2024-12-06,CUST-908,Clothing,2,73.83,147.66,0,0,147.66,debit_card,completed,DE
+ORD-1870,2024-12-07,CUST-856,Clothing,4,71.95,287.8,38.96,0,248.84,bank_transfer,completed,AU
+ORD-1871,2024-12-07,CUST-953,Electronics,4,313.35,1253.4,107.06,0,1146.34,bank_transfer,completed,CA
+ORD-1872,2024-12-07,CUST-525,Electronics,1,333.68,333.68,0,0,333.68,bank_transfer,pending,DE
+ORD-1873,2024-12-07,CUST-842,Electronics,4,229.86,919.44,0,0,919.44,bank_transfer,completed,US
+ORD-1874,2024-12-08,CUST-584,Books,5,19.69,98.45,13.19,9.0,94.26,credit_card,completed,CA
+ORD-1875,2024-12-09,CUST-548,Books,1,13.97,13.97,0,9.62,23.59,debit_card,refunded,UK
+ORD-1876,2024-12-09,CUST-832,Sports,3,278.48,835.44,0,0,835.44,bank_transfer,completed,DE
+ORD-1877,2024-12-09,CUST-852,Books,4,38.82,155.28,0,0,155.28,paypal,completed,US
+ORD-1878,2024-12-09,CUST-783,Sports,2,102.68,205.36,0,0,205.36,bank_transfer,completed,US
+ORD-1879,2024-12-10,CUST-605,Clothing,5,81.45,407.25,0,0,407.25,paypal,completed,UK
+ORD-1880,2024-12-10,CUST-367,Sports,1,299.8,299.8,0,0,299.8,paypal,pending,US
+ORD-1951,2024-12-10,CUST-564,Sports,0,0,0,0,0,0,paypal,pending,US
+ORD-1881,2024-12-11,CUST-216,Sports,1,246.87,246.87,0,0,246.87,debit_card,completed,UK
+ORD-1882,2024-12-11,CUST-887,Books,3,44.77,134.31,0,0,134.31,credit_card,refunded,DE
+ORD-1883,2024-12-12,CUST-548,Sports,5,209.11,1045.55,0,0,1045.55,bank_transfer,completed,US
+ORD-1884,2024-12-12,CUST-943,Sports,5,240.09,1200.45,0,0,1200.45,credit_card,refunded,US
+ORD-1885,2024-12-13,CUST-552,Electronics,2,459.94,919.88,40.31,0,879.57,bank_transfer,pending,US
+ORD-1886,2024-12-13,CUST-549,Clothing,3,60.17,180.51,22.98,0,157.53,bank_transfer,completed,UK
+ORD-1887,2024-12-14,CUST-872,Home & Garden,3,110.9,332.7,18.59,0,314.11,bank_transfer,completed,UK
+ORD-1888,2024-12-14,CUST-523,Clothing,5,71.93,359.65,43.25,0,316.4,bank_transfer,completed,CA
+ORD-1889,2024-12-14,CUST-171,Electronics,4,115.51,462.04,55.88,0,406.16,credit_card,completed,CA
+ORD-1890,2024-12-14,CUST-756,Books,2,24.06,48.12,0,4.44,52.56,debit_card,refunded,US
+ORD-1891,2024-12-15,CUST-994,Books,4,40.77,163.08,0,0,163.08,paypal,pending,CA
+ORD-1892,2024-12-15,CUST-725,Home & Garden,1,168.86,168.86,0,0,168.86,debit_card,pending,FR
+ORD-1893,2024-12-15,CUST-552,Books,2,40.84,81.68,0,11.41,93.09,paypal,pending,FR
+ORD-1894,2024-12-16,CUST-857,Home & Garden,1,26.65,26.65,0,12.69,39.34,debit_card,refunded,DE
+ORD-1895,2024-12-16,CUST-750,Clothing,1,84.08,84.08,0,8.08,92.16,debit_card,completed,US
+ORD-1896,2024-12-17,CUST-213,Clothing,3,113.08,339.24,0,0,339.24,credit_card,completed,DE
+ORD-1897,2024-12-17,CUST-227,Sports,3,59.05,177.15,0,0,177.15,bank_transfer,completed,US
+ORD-1898,2024-12-17,CUST-695,Books,3,44.37,133.11,0,0,133.11,debit_card,completed,DE
+ORD-1899,2024-12-18,CUST-353,Sports,2,221.45,442.9,0,0,442.9,credit_card,completed,UK
+ORD-1900,2024-12-18,CUST-948,Home & Garden,4,37.64,150.56,0,0,150.56,bank_transfer,completed,US
+ORD-1901,2024-12-18,CUST-556,Electronics,4,449.83,1799.32,0,0,1799.32,credit_card,completed,FR
+ORD-1902,2024-12-19,CUST-550,Home & Garden,5,109.79,548.95,0,0,548.95,bank_transfer,pending,FR
+ORD-1903,2024-12-19,CUST-568,Clothing,2,83.28,166.56,0,0,166.56,debit_card,pending,US
+ORD-1904,2024-12-19,CUST-672,Clothing,4,78.9,315.6,0,0,315.6,paypal,completed,FR
+ORD-1905,2024-12-19,CUST-220,Electronics,1,216.31,216.31,16.96,0,199.35,paypal,completed,CA
+ORD-1906,2024-12-20,CUST-412,Home & Garden,4,25.04,100.16,11.78,9.05,97.43,paypal,completed,US
+ORD-1907,2024-12-20,CUST-527,Books,1,12.53,12.53,0,14.44,26.97,bank_transfer,refunded,DE
+ORD-1908,2024-12-20,CUST-586,Sports,4,272.58,1090.32,0,0,1090.32,debit_card,completed,AU
+ORD-1909,2024-12-21,CUST-780,Books,2,40.05,80.1,0,13.59,93.69,bank_transfer,completed,UK
+ORD-1910,2024-12-21,CUST-853,Books,3,28.02,84.06,0,14.67,98.73,paypal,pending,US
+ORD-1911,2024-12-21,CUST-674,Clothing,1,92.22,92.22,0,12.48,104.7,credit_card,pending,US
+ORD-1912,2024-12-21,CUST-683,Clothing,5,88.15,440.75,0,0,440.75,debit_card,completed,US
+ORD-1913,2024-12-22,CUST-949,Sports,2,289.65,579.3,17.88,0,561.42,bank_transfer,completed,CA
+ORD-1914,2024-12-23,CUST-448,Sports,1,160.16,160.16,0,0,160.16,bank_transfer,completed,FR
+ORD-1915,2024-12-23,CUST-201,Electronics,5,192.82,964.1,16.58,0,947.52,debit_card,completed,US
+ORD-1916,2024-12-23,CUST-794,Clothing,3,118.72,356.16,50.87,0,305.29,debit_card,completed,CA
+ORD-1917,2024-12-23,CUST-245,Clothing,1,111.3,111.3,1.65,0,109.65,bank_transfer,completed,DE
+ORD-1918,2024-12-24,CUST-700,Electronics,1,141.15,141.15,0,0,141.15,debit_card,completed,FR
+ORD-1919,2024-12-24,CUST-516,Electronics,3,77.28,231.84,0,0,231.84,credit_card,completed,US
+ORD-1920,2024-12-24,CUST-203,Books,2,41.81,83.62,6.95,11.02,87.69,debit_card,refunded,US
+ORD-1921,2024-12-24,CUST-308,Home & Garden,5,93.21,466.05,44.45,0,421.6,debit_card,completed,US
+ORD-1922,2024-12-25,CUST-142,Sports,4,289.37,1157.48,0,0,1157.48,credit_card,completed,DE
+ORD-1923,2024-12-25,CUST-356,Clothing,1,23.12,23.12,0,7.27,30.39,bank_transfer,completed,UK
+ORD-1924,2024-12-26,CUST-407,Electronics,2,382.63,765.26,0,0,765.26,credit_card,completed,US
+ORD-1925,2024-12-26,CUST-315,Clothing,5,149.84,749.2,0,0,749.2,paypal,pending,CA
+ORD-1926,2024-12-26,CUST-429,Home & Garden,4,69.14,276.56,0,0,276.56,paypal,completed,AU
+ORD-1927,2024-12-27,CUST-109,Electronics,2,340.9,681.8,48.73,0,633.07,debit_card,completed,AU
+ORD-1928,2024-12-27,CUST-651,Books,5,11.0,55.0,0,11.81,66.81,credit_card,pending,AU
+ORD-1929,2024-12-27,CUST-715,Electronics,3,487.42,1462.26,0,0,1462.26,paypal,completed,US
+ORD-1930,2024-12-28,CUST-860,Electronics,4,216.72,866.88,1.22,0,865.66,credit_card,completed,CA
+ORD-1931,2024-12-29,CUST-326,Electronics,5,331.36,1656.8,0,0,1656.8,debit_card,completed,CA
+ORD-1932,2024-12-29,CUST-720,Electronics,3,271.78,815.34,0,0,815.34,debit_card,completed,UK
+ORD-1933,2024-12-30,CUST-665,Electronics,3,306.1,918.3,0,0,918.3,debit_card,pending,US
+ORD-1934,2024-12-30,CUST-683,Electronics,5,107.71,538.55,20.97,0,517.58,debit_card,refunded,DE
+ORD-1935,2024-12-30,CUST-645,Clothing,1,148.91,148.91,0,0,148.91,paypal,pending,AU
+ORD-1936,2024-12-30,CUST-153,Electronics,4,338.43,1353.72,0,0,1353.72,paypal,completed,FR
